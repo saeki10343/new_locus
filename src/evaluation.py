@@ -24,7 +24,6 @@ def hit_at_k(ranked_list, relevant_items, k):
 
 def evaluate_results(results):
     print("検出されたバグ数:", len(results))
-    print("Bug ID 例:", list(results.keys())[:5])
     from pathlib import Path
     import json
 
@@ -59,10 +58,6 @@ def evaluate_results(results):
         top5 += hit_at_k(ranked, gt, 5)
         top10 += hit_at_k(ranked, gt, 10)
         total += 1
-    if total == 0:
-        print("⚠ Ground truth に該当するバグが存在しません（評価対象 0 件）")
-        return
-
 
     print("\n=== Evaluation Result (Hunk Level) ===")
     print(f"MAP: {map_total/total:.4f}")
