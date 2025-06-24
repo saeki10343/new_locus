@@ -1,0 +1,4 @@
+pydriller
+nltk
+scikit-learn
+requests
