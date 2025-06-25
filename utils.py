@@ -21,6 +21,9 @@ def generate_fix_hunk_map(bug_reports, hunks):
     return fix_hunk_map
 
 def main():
+    with open("data/commits.json") as f:
+        commits = json.load(f)
+
     with open("data/bug_reports.json") as f:
         bug_reports = json.load(f)
 
@@ -35,7 +38,9 @@ def main():
     nl_corpus, ce_corpus = extract_hunks_and_tokens(bug_reports, hunks, fix_hunk_map)
 
     # [4] ランキングスコアの計算（論文式に従ってNL, CE, Boostingを統合）
-    scores = compute_scores(nl_corpus, ce_corpus, bug_reports, fix_hunk_map, hunks)
+    commit_unix_time = {c['hash']: c.get('timestamp', 0) for c in commits}  # 適宜 timestamp 構造に合わせる
+    scores = compute_scores(nl_corpus, ce_corpus, bug_reports, fix_hunk_map, hunks, commit_unix_time)
+
     with open("output/scores.json", "w") as f:
         json.dump(scores, f, indent=2)
 
