@@ -37,7 +37,7 @@ def fetch_tomcat_repo(commits_file, hunks_file):
                 "msg": msg
             })
 
-        commits.append({"hash": commit.hash, "msg": msg})
+        commits.append({"hash": commit.hash, "msg": msg, "timestamp": int(commit.committer_date.timestamp())})
 
     Path(commits_file).write_text(json.dumps(commits, indent=2))
     Path(hunks_file).write_text(json.dumps(hunks, indent=2))

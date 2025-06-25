@@ -65,3 +65,39 @@ def evaluate_results(results):
     print(f"TOP@1: {top1/total:.4f}")
     print(f"TOP@5: {top5/total:.4f}")
     print(f"TOP@10: {top10/total:.4f}")
+
+def evaluate_ranking(scores, fix_hunk_map):
+    map_total, mrr_total = 0.0, 0.0
+    top1, top5, top10 = 0, 0, 0
+    total = 0
+
+    for bug_id, relevant_hunks in fix_hunk_map.items():
+        bug_id_str = str(bug_id) 
+        if bug_id_str not in scores:
+            continue
+        ranked_hunks = scores[bug_id]
+        total += 1
+        ranks = [i for i, (hunk_id, _) in enumerate(ranked_hunks) if hunk_id in relevant_hunks]
+
+        if not ranks:
+            continue
+        first = min(ranks)
+        map_total += sum(1.0 / (r + 1) for r in ranks) / len(relevant_hunks)
+        mrr_total += 1.0 / (first + 1)
+        if first == 0:
+            top1 += 1
+        if first < 5:
+            top5 += 1
+        if first < 10:
+            top10 += 1
+
+    if total == 0:
+        return {"MAP": 0.0, "MRR": 0.0, "TOP@1": 0.0, "TOP@5": 0.0, "TOP@10": 0.0}
+
+    return {
+        "MAP": map_total / total,
+        "MRR": mrr_total / total,
+        "TOP@1": top1 / total,
+        "TOP@5": top5 / total,
+        "TOP@10": top10 / total,
+    }
