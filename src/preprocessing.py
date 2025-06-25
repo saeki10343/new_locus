@@ -25,7 +25,7 @@ def tokenize_ce(diff):
     return list(set(tokens))
 
 
-def extract_hunks_and_tokens(bug_reports, hunks):
+def extract_hunks_and_tokens(bug_reports, hunks, fix_hunk_map):
     hunk_map = {}
     for h in hunks:
         hunk_id = f"{h['commit_id']}:{h['index']}"
@@ -36,15 +36,15 @@ def extract_hunks_and_tokens(bug_reports, hunks):
 
     for bug in bug_reports:
         bug_id = str(bug["id"])
-        nl_text = bug["summary"] + "\n" + bug["description"]
+        nl_text = bug["summary"] + "\n" + bug.get("description", "")
         nl_tokens = tokenize_nl(nl_text)
         nl_corpus[bug_id] = nl_tokens
 
         ce_corpus[bug_id] = {}
-        for hunk in hunks:
-            if any(str(fix_id) in hunk["msg"] for fix_id in bug.get("fixes", [])):
-                hunk_id = f"{hunk['commit_id']}:{hunk['index']}"
-                ce_tokens = tokenize_ce(hunk["diff"])
+        for hunk_id in fix_hunk_map.get(bug_id, []):
+            h = hunk_map.get(hunk_id)
+            if h:
+                ce_tokens = tokenize_ce(h["diff"])
                 ce_corpus[bug_id][hunk_id] = ce_tokens
 
     return nl_corpus, ce_corpus
