@@ -38,3 +38,24 @@ def vectorize(texts, vectorizer):
     return: scipy sparse matrix (TF-IDF ベクトル群)
     """
     return vectorizer.transform(texts)
+
+def preprocess_ce(tokens):
+    """
+    CEトークン（identifier）を文字列化してベクトル化可能にする（重複は保持）
+    """
+    return ' '.join(tokens)
+
+
+def build_vectorizer_ce(ce_corpus, max_features=10000):
+    """
+    ce_corpus: Dict[bug_id][hunk_id] = List[str]
+    → 全CEトークンを文字列化してベクトル化（TF-IDF）
+    """
+    all_texts = []
+    for bug_ce in ce_corpus.values():
+        for tokens in bug_ce.values():
+            all_texts.append(preprocess_ce(tokens))
+    
+    vectorizer = TfidfVectorizer(max_features=max_features)
+    vectorizer.fit(all_texts)
+    return vectorizer

@@ -63,10 +63,13 @@ def fetch_bug_reports(output_file):
             if "bugs" in data and data["bugs"]:
                 bug = data["bugs"][0]
                 if bug.get("status") == "RESOLVED" and bug.get("resolution") == "FIXED":
+                    description, comments = scrape_bugzilla_description(bug["id"])
                     bug_reports.append({
                         "id": bug["id"],
                         "summary": bug["summary"],
-                        "description": bug.get("description", ""),
+                        "description": description,
+                        "comments": comments,
+                        "creation_ts": bug.get("creation_time"),  
                         "fixes": [bug["id"]]  # used to match against commit messages
                     })
         except Exception as e:
@@ -77,6 +80,25 @@ def fetch_bug_reports(output_file):
 
     return bug_reports
 
+def scrape_bugzilla_description(bug_id: int) -> str:
+    try:
+        url = f"https://bz.apache.org/bugzilla/rest.cgi/bug/{bug_id}/comment?Bugzilla_api_key={'azVGl7F6Kj4iw3xIn4DiMbtqYrfPfznyOTsF0BJW'}"
+        res = requests.get(url, timeout=10)
+        data = res.json()
+
+        comments = data.get("bugs", {}).get(str(bug_id), {}).get("comments", [])
+        if comments:
+            description = comments[0].get("text", "").strip()
+            other_comments = [c.get("text", "").strip() for c in comments[1:]]
+            return description, other_comments
+
+        else:
+            print(f"[Warning] No comments found for bug {bug_id}")
+            return ""
+    except Exception as e:
+        print(f"[Error] Failed to fetch comment for bug {bug_id}: {e}")
+        return ""
+    
 if __name__ == "__main__":
     # fetch_tomcat_repo("data/commits.json", "data/hunks.json")
     fetch_bug_reports("data/bug_reports.json")
