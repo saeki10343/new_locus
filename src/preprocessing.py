@@ -21,7 +21,7 @@ def tokenize_nl(text):
 
 
 def tokenize_ce(diff):
-    tokens = re.findall(r"[A-Za-z_][A-Za-z0-9_]*", diff)
+    tokens = re.findall(r'\b[A-Za-z_][A-Za-z0-9_]*\b', diff)
     return list(set(tokens))
 
 
@@ -36,7 +36,7 @@ def extract_hunks_and_tokens(bug_reports, hunks, fix_hunk_map):
 
     for bug in bug_reports:
         bug_id = str(bug["id"])
-        nl_text = bug["summary"] + "\n" + bug.get("description", "")
+        nl_text = bug["summary"] + "\n" + bug.get("description", "") + "\n" + "\n".join(bug.get("comments", []))
         nl_tokens = tokenize_nl(nl_text)
         nl_corpus[bug_id] = nl_tokens
 

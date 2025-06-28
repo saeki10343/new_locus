@@ -4228,5 +4228,10 @@
     "hash": "f28a16681b9a6a4a4404fc9a3da0280359b087dc",
     "msg": "BZ 69710 Increase default maxPartCount to 50\n\nDocument memory requirements for multipart requests\n\nhttps://bz.apache.org/bugzilla/show_bug.cgi?id=69710",
     "timestamp": 1750755172
+  },
+  {
+    "hash": "e53b36f0a96478aa0c0bbda463ca629b68af8114",
+    "msg": "Fix BZ 69728. Remove incorrect h2+optional msg. Improve CLIENT-CERT msgs\n\nhttps://bz.apache.org/bugzilla/show_bug.cgi?id=69728",
+    "timestamp": 1750935668
   }
 ]
