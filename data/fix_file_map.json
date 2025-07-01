@@ -1,0 +1,2690 @@
+{
+  "69442": [
+    "java/org/apache/catalina/Globals.java",
+    "java/org/apache/catalina/authenticator/FormAuthenticator.java",
+    "java/org/apache/catalina/connector/Request.java",
+    "java/org/apache/catalina/filters/CorsFilter.java",
+    "test/jakarta/servlet/TestServletRequestParameters.java",
+    "test/jakarta/servlet/TestServletRequestParametersFormUrlEncoded.java",
+    "test/org/apache/catalina/authenticator/TestFormAuthenticatorA.java",
+    "test/org/apache/catalina/authenticator/TestFormAuthenticatorB.java",
+    "test/org/apache/catalina/authenticator/TestFormAuthenticatorC.java",
+    "test/org/apache/catalina/connector/TestRequest.java",
+    "test/org/apache/catalina/startup/ExpectationClient.java",
+    "test/org/apache/catalina/startup/SimpleHttpClient.java",
+    "test/org/apache/coyote/ajp/TestAbstractAjpProcessor.java",
+    "test/org/apache/coyote/http11/TestHttp11Processor.java",
+    "test/org/apache/coyote/http11/filters/TestChunkedInputFilter.java",
+    "test/org/apache/coyote/http2/Http2TestBase.java"
+  ],
+  "64712": [
+    "java/org/apache/catalina/authenticator/AuthenticatorBase.java"
+  ],
+  "64872": [
+    "java/org/apache/jasper/optimizations/ELInterpreterTagSetters.java",
+    "java/org/apache/jasper/optimizations/StringInterpreterEnum.java",
+    "test/org/apache/jasper/optimizations/TestELInterpreterTagSetters.java",
+    "test/org/apache/jasper/optimizations/TestStringInterpreterTagSetters.java"
+  ],
+  "65265": [
+    "java/org/apache/tomcat/util/Diagnostics.java"
+  ],
+  "65358": [
+    "java/jakarta/el/Util.java",
+    "java/org/apache/el/util/ReflectionUtil.java",
+    "test/jakarta/el/TestBeanELResolver.java",
+    "test/org/apache/el/TestMethodExpressionImpl.java",
+    "test/org/apache/el/TesterBeanF.java",
+    "test/org/apache/el/TesterBeanG.java",
+    "test/org/apache/el/TesterBeanH.java",
+    "test/org/apache/el/TesterBeanI.java"
+  ],
+  "42361": [
+    "java/org/apache/catalina/authenticator/FormAuthenticator.java",
+    "java/org/apache/catalina/authenticator/SavedRequest.java"
+  ],
+  "51278": [
+    "java/org/apache/catalina/startup/ContextConfig.java"
+  ],
+  "43675": [
+    "java/org/apache/jasper/xmlparser/ParserUtils.java",
+    "java/org/apache/tomcat/util/http/ServerCookie.java"
+  ],
+  "58414": [
+    "test/org/apache/tomcat/websocket/TestWsWebSocketContainer.java"
+  ],
+  "66875": [
+    "java/org/apache/catalina/connector/CoyoteAdapter.java"
+  ],
+  "69728": [
+    "java/org/apache/catalina/authenticator/SSLAuthenticator.java",
+    "java/org/apache/tomcat/util/net/AbstractEndpoint.java"
+  ],
+  "55633": [
+    "java/org/apache/tomcat/util/net/NioEndpoint.java"
+  ],
+  "69717": [
+    "java/org/apache/catalina/webresources/AbstractResourceSet.java",
+    "test/org/apache/catalina/webresources/AbstractTestResourceSet.java",
+    "test/org/apache/catalina/webresources/AbstractTestResourceSetMount.java",
+    "test/org/apache/catalina/webresources/AbstractTestResourceSetMountTrailing.java",
+    "test/org/apache/catalina/webresources/TestDirResourceSetMount.java",
+    "test/org/apache/catalina/webresources/TestDirResourceSetMountTrailing.java",
+    "test/org/apache/catalina/webresources/TestJarResourceSetMountTrailing.java"
+  ],
+  "58701": [
+    "java/org/apache/catalina/core/StandardWrapper.java"
+  ],
+  "44562": [
+    "java/javax/servlet/http/HttpServlet.java"
+  ],
+  "64265": [
+    "java/org/apache/catalina/servlets/DefaultServlet.java",
+    "test/org/apache/catalina/servlets/TestDefaultServletIfMatchRequests.java"
+  ],
+  "64311": [
+    "test/org/apache/tomcat/jni/TestSocketServerAnyLocalAddress.java"
+  ],
+  "66841": [
+    "java/org/apache/coyote/AbstractProcessor.java",
+    "java/org/apache/coyote/AsyncStateMachine.java",
+    "test/org/apache/coyote/http2/TestAsyncError.java"
+  ],
+  "39724": [
+    "java/org/apache/catalina/core/StandardPipeline.java"
+  ],
+  "69066": [
+    "java/org/apache/catalina/authenticator/SpnegoAuthenticator.java"
+  ],
+  "67938": [
+    "java/org/apache/tomcat/util/net/SecureNio2Channel.java",
+    "java/org/apache/tomcat/util/net/SecureNioChannel.java"
+  ],
+  "49869": [
+    "java/org/apache/catalina/loader/WebappClassLoader.java"
+  ],
+  "65272": [
+    "java/org/apache/coyote/http11/Http11InputBuffer.java",
+    "test/org/apache/coyote/http11/TestHttp11InputBuffer.java",
+    "test/org/apache/coyote/http11/TestHttp11InputBufferCRLF.java"
+  ],
+  "60940": [
+    "java/org/apache/catalina/webresources/JarWarResourceSet.java",
+    "java/org/apache/catalina/webresources/TomcatJarInputStream.java"
+  ],
+  "66194": [
+    "java/org/apache/coyote/http2/Http2UpgradeHandler.java"
+  ],
+  "64210": [
+    "java/org/apache/coyote/http11/Http11InputBuffer.java",
+    "java/org/apache/coyote/http11/Http11Processor.java",
+    "test/org/apache/coyote/http11/TestHttp11InputBuffer.java",
+    "test/org/apache/coyote/http11/TestHttp11InputBufferCRLF.java"
+  ],
+  "63835": [
+    "java/org/apache/coyote/http11/AbstractHttp11Protocol.java",
+    "java/org/apache/coyote/http11/Constants.java",
+    "java/org/apache/coyote/http11/Http11Processor.java",
+    "test/org/apache/catalina/startup/SimpleHttpClient.java",
+    "test/org/apache/coyote/http11/TestHttp11Processor.java"
+  ],
+  "42497": [
+    "java/org/apache/catalina/servlets/DefaultServlet.java"
+  ],
+  "49218": [
+    "java/org/apache/catalina/core/ApplicationContext.java"
+  ],
+  "65767": [
+    "java/org/apache/tomcat/util/net/jsse/PEMFile.java"
+  ],
+  "64089": [
+    "java/org/apache/tomcat/util/digester/Digester.java"
+  ],
+  "50677": [
+    "java/org/apache/catalina/startup/Bootstrap.java"
+  ],
+  "56181": [
+    "java/org/apache/catalina/filters/RemoteIpFilter.java",
+    "java/org/apache/catalina/valves/RemoteIpValve.java",
+    "test/org/apache/catalina/valves/TestRemoteIpValve.java"
+  ],
+  "43611": [
+    "java/org/apache/catalina/manager/HTMLManagerServlet.java"
+  ],
+  "54631": [
+    "test/org/apache/tomcat/websocket/pojo/TestPojoMethodMapping.java"
+  ],
+  "67793": [
+    "java/org/apache/catalina/authenticator/FormAuthenticator.java"
+  ],
+  "64660": [
+    "java/org/apache/tomcat/util/net/AprEndpoint.java"
+  ],
+  "67670": [
+    "java/org/apache/coyote/http11/Http11Processor.java",
+    "test/org/apache/catalina/servlets/TestDefaultServlet.java"
+  ],
+  "69373": [
+    "java/org/apache/catalina/servlets/DefaultServlet.java"
+  ],
+  "63681": [
+    "java/org/apache/catalina/Realm.java",
+    "java/org/apache/catalina/realm/CombinedRealm.java",
+    "java/org/apache/catalina/realm/LockOutRealm.java",
+    "java/org/apache/catalina/realm/RealmBase.java"
+  ],
+  "63682": [
+    "java/org/apache/coyote/http2/WindowAllocationManager.java"
+  ],
+  "63836": [
+    "java/org/apache/catalina/startup/ContextConfig.java"
+  ],
+  "69362": [
+    "java/org/apache/catalina/servlets/WebdavServlet.java"
+  ],
+  "66622": [
+    "java/org/apache/catalina/filters/HttpHeaderSecurityFilter.java"
+  ],
+  "54060": [
+    "java/org/apache/tomcat/util/http/parser/HttpParser2.java",
+    "test/org/apache/tomcat/util/http/parser/TestHttpParser2.java"
+  ],
+  "56663": [
+    "java/org/apache/catalina/connector/InputBuffer.java",
+    "java/org/apache/coyote/AbstractProtocol.java",
+    "java/org/apache/coyote/http11/filters/IdentityInputFilter.java"
+  ],
+  "45451": [
+    "java/org/apache/jasper/compiler/Parser.java"
+  ],
+  "51786": [
+    "modules/jdbc-pool/src/main/java/org/apache/tomcat/jdbc/pool/ProxyConnection.java"
+  ],
+  "62371": [
+    "test/org/apache/tomcat/util/http/parser/TestHttpParserHost.java"
+  ],
+  "69301": [
+    "java/org/apache/coyote/http2/Stream.java",
+    "test/org/apache/coyote/http2/TestHttp2AccessLogs.java"
+  ],
+  "49158": [
+    "test/org/apache/tomcat/util/http/TestBug49158.java"
+  ],
+  "50282": [
+    "java/org/apache/catalina/core/JreMemoryLeakPreventionListener.java"
+  ],
+  "55996": [
+    "java/org/apache/tomcat/util/net/SocketWrapper.java"
+  ],
+  "40817": [
+    "java/org/apache/catalina/servlets/CGIServlet.java"
+  ],
+  "43743": [
+    "java/org/apache/jasper/compiler/Parser.java"
+  ],
+  "68721": [
+    "java/org/apache/catalina/loader/WebappClassLoaderBase.java"
+  ],
+  "64247": [
+    "java/org/apache/tomcat/util/scan/StandardJarScanFilter.java"
+  ],
+  "66513": [
+    "java/org/apache/catalina/session/PersistentManager.java",
+    "java/org/apache/catalina/valves/PersistentValve.java",
+    "test/org/apache/catalina/valves/TestPersistentValve.java"
+  ],
+  "47013": [
+    "java/org/apache/catalina/core/Constants.java",
+    "java/org/apache/catalina/core/StandardWrapper.java"
+  ],
+  "49799": [
+    "java/org/apache/jasper/compiler/Generator.java"
+  ],
+  "41675": [
+    "java/org/apache/coyote/http11/Http11Processor.java"
+  ],
+  "51477": [
+    "java/org/apache/tomcat/jni/Library.java",
+    "java/org/apache/tomcat/util/net/AprEndpoint.java"
+  ],
+  "56917": [
+    "java/org/apache/catalina/connector/Response.java",
+    "test/org/apache/catalina/connector/TestResponse.java"
+  ],
+  "40844": [
+    "java/org/apache/catalina/realm/JDBCRealm.java"
+  ],
+  "66359": [
+    "java/org/apache/catalina/filters/RemoteIpFilter.java",
+    "java/org/apache/catalina/valves/RemoteIpValve.java"
+  ],
+  "45026": [
+    "java/org/apache/catalina/core/ContainerBase.java",
+    "java/org/apache/coyote/ajp/AjpAprProcessor.java",
+    "java/org/apache/coyote/ajp/AjpProcessor.java",
+    "java/org/apache/jk/common/JkInputStream.java"
+  ],
+  "59219": [
+    "java/org/apache/catalina/connector/Request.java",
+    "java/org/apache/catalina/valves/ErrorReportValve.java",
+    "java/org/apache/coyote/ActionCode.java",
+    "java/org/apache/coyote/AsyncStateMachine.java",
+    "java/org/apache/coyote/ajp/AjpProcessor.java",
+    "java/org/apache/coyote/http11/Http11Processor.java",
+    "java/org/apache/coyote/http2/StreamProcessor.java"
+  ],
+  "51862": [
+    "java/org/apache/catalina/core/JreMemoryLeakPreventionListener.java"
+  ],
+  "52450": [
+    "java/org/apache/jasper/xmlparser/ParserUtils.java"
+  ],
+  "63781": [
+    "java/javax/el/BeanELResolver.java",
+    "java/javax/el/StaticFieldELResolver.java",
+    "java/javax/el/Util.java",
+    "java/org/apache/el/util/ReflectionUtil.java"
+  ],
+  "41608": [
+    "java/org/apache/catalina/core/StandardWrapperValve.java"
+  ],
+  "47214": [
+    "java/org/apache/catalina/core/ApplicationContextFacade.java",
+    "java/org/apache/catalina/core/AsyncContextImpl.java",
+    "java/org/apache/catalina/security/SecurityClassLoad.java"
+  ],
+  "42727": [
+    "java/org/apache/catalina/connector/CoyoteReader.java"
+  ],
+  "65995": [
+    "java/org/apache/catalina/filters/ExpiresFilter.java"
+  ],
+  "42515": [
+    "java/javax/el/BeanELResolver.java",
+    "java/javax/el/ResourceBundleELResolver.java",
+    "java/javax/servlet/jsp/el/ScopedAttributeELResolver.java",
+    "java/javax/servlet/jsp/tagext/TagInfo.java"
+  ],
+  "66023": [
+    "java/org/apache/coyote/http2/Stream.java",
+    "test/org/apache/coyote/http2/Http2TestBase.java",
+    "test/org/apache/coyote/http2/TestHttp2UpgradeHandler.java"
+  ],
+  "66325": [
+    "java/org/apache/el/lang/EvaluationContext.java",
+    "java/org/apache/el/lang/LambdaExpressionNestedState.java",
+    "java/org/apache/el/parser/AstLambdaExpression.java"
+  ],
+  "65806": [
+    "java/org/apache/catalina/authenticator/AuthenticatorBase.java",
+    "java/org/apache/catalina/session/ManagerBase.java",
+    "java/org/apache/catalina/util/SessionIdGeneratorBase.java"
+  ],
+  "37458": [
+    "java/org/apache/catalina/loader/WebappClassLoader.java"
+  ],
+  "48863": [
+    "java/org/apache/catalina/startup/ClassLoaderFactory.java"
+  ],
+  "69370": [
+    "java/org/apache/catalina/servlets/DefaultServlet.java"
+  ],
+  "44268": [
+    "java/org/apache/catalina/core/StandardContext.java"
+  ],
+  "64192": [
+    "java/org/apache/tomcat/util/net/SecureNio2Channel.java",
+    "java/org/apache/tomcat/util/net/SecureNioChannel.java",
+    "java/org/apache/tomcat/util/net/SocketBufferHandler.java",
+    "java/org/apache/tomcat/util/net/SocketWrapperBase.java",
+    "test/org/apache/coyote/http2/Http2TestBase.java",
+    "test/org/apache/coyote/http2/TestLargeUpload.java",
+    "test/org/apache/tomcat/util/net/TestSocketBufferHandler.java",
+    "test/org/apache/tomcat/util/net/TesterSupport.java"
+  ],
+  "65577": [
+    "java/org/apache/catalina/security/SecurityClassLoad.java"
+  ],
+  "42650": [
+    "java/org/apache/catalina/tribes/transport/nio/PooledParallelSender.java"
+  ],
+  "48973": [
+    "java/org/apache/catalina/session/StandardManager.java"
+  ],
+  "45832": [
+    "java/org/apache/catalina/ant/AbstractCatalinaTask.java",
+    "java/org/apache/catalina/util/IOTools.java"
+  ],
+  "60900": [
+    "java/org/apache/catalina/connector/CoyoteAdapter.java",
+    "java/org/apache/coyote/AbstractProcessorLight.java"
+  ],
+  "62496": [
+    "java/org/apache/catalina/authenticator/AuthenticatorBase.java",
+    "test/org/apache/catalina/authenticator/TestAuthInfoResponseHeaders.java"
+  ],
+  "69382": [
+    "java/org/apache/jasper/compiler/Generator.java"
+  ],
+  "49711": [
+    "java/org/apache/catalina/Context.java",
+    "java/org/apache/catalina/ant/AbstractCatalinaTask.java",
+    "java/org/apache/catalina/connector/Connector.java",
+    "java/org/apache/catalina/connector/Request.java",
+    "java/org/apache/catalina/core/StandardContext.java",
+    "java/org/apache/tomcat/util/net/AprEndpoint.java",
+    "test/org/apache/catalina/connector/TestRequest.java",
+    "test/org/apache/catalina/core/TestStandardContext.java"
+  ],
+  "42072": [
+    "java/org/apache/jasper/servlet/JspServletWrapper.java"
+  ],
+  "66621": [
+    "java/org/apache/catalina/servlets/WebdavServlet.java"
+  ],
+  "69302": [
+    "java/org/apache/coyote/AbstractProcessor.java",
+    "java/org/apache/coyote/ActionCode.java",
+    "java/org/apache/coyote/http2/Stream.java",
+    "java/org/apache/tomcat/util/net/DispatchType.java",
+    "test/org/apache/coyote/http2/TestAsyncReadListener.java",
+    "test/org/apache/coyote/http2/TestHttp2Section_5_1.java"
+  ],
+  "66602": [
+    "java/org/apache/coyote/http2/Http2UpgradeHandler.java"
+  ],
+  "66681": [
+    "java/org/apache/tomcat/websocket/PerMessageDeflate.java",
+    "test/org/apache/tomcat/websocket/TestPerMessageDeflate.java"
+  ],
+  "49165": [
+    "java/org/apache/catalina/valves/AccessLogValve.java"
+  ],
+  "55559": [
+    "java/org/apache/catalina/realm/UserDatabaseRealm.java"
+  ],
+  "68884": [
+    "java/org/apache/tomcat/websocket/Constants.java",
+    "java/org/apache/tomcat/websocket/WsRemoteEndpointImplBase.java",
+    "java/org/apache/tomcat/websocket/WsSession.java"
+  ],
+  "48795": [
+    "java/org/apache/jasper/EmbeddedServletOptions.java",
+    "java/org/apache/jasper/JspC.java",
+    "java/org/apache/jasper/JspCompilationContext.java",
+    "java/org/apache/jasper/Options.java"
+  ],
+  "69623": [
+    "java/org/apache/catalina/webresources/CachedResource.java"
+  ],
+  "56890": [
+    "java/org/apache/catalina/core/ApplicationContext.java"
+  ],
+  "45015": [
+    "test/org/apache/jasper/compiler/TestGenerator.java"
+  ],
+  "66536": [
+    "java/org/apache/jasper/compiler/ParserController.java"
+  ],
+  "64373": [
+    "java/org/apache/jasper/compiler/TagLibraryInfoImpl.java",
+    "test/org/apache/jasper/compiler/TestTagLibraryInfoImpl.java"
+  ],
+  "61055": [
+    "java/org/apache/catalina/valves/rewrite/RewriteRule.java",
+    "java/org/apache/catalina/valves/rewrite/RewriteValve.java"
+  ],
+  "69508": [
+    "java/org/apache/jasper/compiler/Generator.java",
+    "test/org/apache/jasper/compiler/TestGenerator.java"
+  ],
+  "65921": [
+    "java/org/apache/catalina/valves/rewrite/RewriteValve.java"
+  ],
+  "61740": [
+    "java/org/apache/coyote/http2/Http2AsyncUpgradeHandler.java"
+  ],
+  "42390": [
+    "java/org/apache/jasper/compiler/Generator.java",
+    "java/org/apache/jasper/compiler/Node.java",
+    "java/org/apache/jasper/compiler/ScriptingVariabler.java"
+  ],
+  "66276": [
+    "java/org/apache/coyote/http2/AbstractNonZeroStream.java"
+  ],
+  "53737": [
+    "java/org/apache/jasper/JspC.java",
+    "java/org/apache/jasper/compiler/JspConfig.java",
+    "java/org/apache/jasper/compiler/TldLocationsCache.java",
+    "java/org/apache/jasper/servlet/JspCServletContext.java",
+    "test/org/apache/jasper/servlet/TestJspCServletContext.java"
+  ],
+  "66442": [
+    "java/org/apache/coyote/http2/Http2AsyncUpgradeHandler.java",
+    "java/org/apache/coyote/http2/Http2UpgradeHandler.java",
+    "java/org/apache/coyote/http2/Stream.java",
+    "java/org/apache/coyote/http2/StreamProcessor.java",
+    "test/org/apache/coyote/http2/Http2TestBase.java",
+    "test/org/apache/coyote/http2/TestStreamProcessor.java"
+  ],
+  "49180": [
+    "java/org/apache/juli/FileHandler.java"
+  ],
+  "43741": [
+    "java/org/apache/jasper/JspCompilationContext.java",
+    "java/org/apache/jasper/compiler/Compiler.java",
+    "java/org/apache/jasper/compiler/TagFileProcessor.java"
+  ],
+  "64080": [
+    "java/org/apache/catalina/core/StandardService.java",
+    "java/org/apache/coyote/AbstractProtocol.java",
+    "java/org/apache/coyote/ProtocolHandler.java",
+    "java/org/apache/tomcat/util/net/AbstractEndpoint.java",
+    "java/org/apache/tomcat/util/net/Acceptor.java"
+  ],
+  "68558": [
+    "java/org/apache/tomcat/util/http/MimeHeaders.java"
+  ],
+  "49125": [
+    "java/org/apache/catalina/ha/deploy/FileMessageFactory.java",
+    "java/org/apache/coyote/ajp/AjpMessage.java",
+    "java/org/apache/tomcat/util/buf/HexUtils.java"
+  ],
+  "44633": [
+    "java/org/apache/catalina/loader/WebappClassLoader.java"
+  ],
+  "51744": [
+    "java/org/apache/catalina/core/NamingContextListener.java",
+    "java/org/apache/catalina/core/StandardContext.java",
+    "java/org/apache/naming/NamingContext.java",
+    "test/org/apache/naming/resources/TestNamingContext.java"
+  ],
+  "40306": [
+    "java/org/apache/coyote/ajp/AjpAprProcessor.java",
+    "java/org/apache/jk/core/MsgContext.java"
+  ],
+  "42119": [
+    "java/org/apache/tomcat/util/http/ContentType.java"
+  ],
+  "57172": [
+    "java/org/apache/catalina/loader/WebappClassLoaderBase.java"
+  ],
+  "57309": [
+    "java/org/apache/jasper/tagplugins/jstl/core/Set.java"
+  ],
+  "66076": [
+    "java/org/apache/tomcat/util/net/NioEndpoint.java",
+    "java/org/apache/tomcat/util/net/SocketWrapperBase.java"
+  ],
+  "44088": [
+    "java/org/apache/catalina/manager/HTMLManagerServlet.java"
+  ],
+  "66609": [
+    "java/org/apache/catalina/servlets/DefaultServlet.java",
+    "test/org/apache/catalina/servlets/TestDefaultServlet.java"
+  ],
+  "69559": [
+    "java/org/apache/tomcat/util/buf/ByteBufferUtils.java",
+    "java/org/apache/tomcat/util/buf/ByteBufferUtilsUnsafe.java"
+  ],
+  "56653": [
+    "java/org/apache/catalina/mapper/Mapper.java",
+    "test/org/apache/catalina/mapper/TestMapper.java"
+  ],
+  "65118": [
+    "java/org/apache/coyote/http2/AbstractNonZeroStream.java",
+    "java/org/apache/coyote/http2/Http2UpgradeHandler.java"
+  ],
+  "69415": [
+    "java/org/apache/catalina/filters/ExpiresFilter.java",
+    "test/org/apache/catalina/filters/TestExpiresFilter.java"
+  ],
+  "53677": [
+    "java/org/apache/coyote/http11/AbstractHttp11Processor.java"
+  ],
+  "47124": [
+    "java/org/apache/catalina/startup/Tomcat.java",
+    "test/org/apache/TestAll.java",
+    "test/org/apache/catalina/ha/session/TesterPrincipal.java",
+    "test/org/apache/catalina/ha/session/TesterSerializablePrincipal.java",
+    "test/org/apache/catalina/startup/TestTomcat.java",
+    "test/org/apache/catalina/tribes/test/NioSenderTest.java",
+    "test/org/apache/catalina/tribes/test/TribesTestSuite.java",
+    "test/org/apache/catalina/tribes/test/channel/TestChannelStartStop.java",
+    "test/org/apache/catalina/tribes/test/membership/TestMemberSerialization.java"
+  ],
+  "69406": [
+    "java/org/apache/jasper/optimizations/StringInterpreterEnum.java",
+    "test/org/apache/jasper/optimizations/TestStringInterpreterEnum.java"
+  ],
+  "42459": [
+    "java/org/apache/catalina/manager/HTMLManagerServlet.java"
+  ],
+  "64226": [
+    "java/org/apache/tomcat/util/http/ConcurrentDateFormat.java",
+    "test/org/apache/tomcat/util/http/TestConcurrentDateFormat.java"
+  ],
+  "65342": [
+    "java/jakarta/websocket/server/ServerEndpointConfig.java",
+    "java/org/apache/tomcat/websocket/WsSession.java"
+  ],
+  "44620": [
+    "java/org/apache/coyote/http11/InternalNioOutputBuffer.java"
+  ],
+  "59261": [
+    "java/org/apache/catalina/connector/CoyoteAdapter.java",
+    "test/org/apache/catalina/core/TestAsyncContextImpl.java"
+  ],
+  "43944": [
+    "java/org/apache/el/lang/ELArithmetic.java"
+  ],
+  "55381": [
+    "java/org/apache/coyote/http11/AbstractHttp11Processor.java",
+    "java/org/apache/tomcat/util/net/AprEndpoint.java",
+    "java/org/apache/tomcat/util/net/NioEndpoint.java"
+  ],
+  "41265": [
+    "java/org/apache/jasper/EmbeddedServletOptions.java"
+  ],
+  "31804": [
+    "java/org/apache/jasper/compiler/Generator.java"
+  ],
+  "48668": [
+    "java/org/apache/jasper/compiler/Compiler.java",
+    "java/org/apache/jasper/compiler/ELParser.java",
+    "java/org/apache/jasper/compiler/JspConfig.java",
+    "java/org/apache/jasper/compiler/Parser.java",
+    "java/org/apache/jasper/compiler/Validator.java",
+    "test/org/apache/jasper/compiler/TestParser.java"
+  ],
+  "69635": [
+    "java/jakarta/el/ImportHandler.java",
+    "java/org/apache/jasper/compiler/JDTCompiler.java",
+    "test/jakarta/el/TestImportHandler.java",
+    "test/org/apache/el/TestELInJsp.java"
+  ],
+  "65736": [
+    "java/org/apache/naming/factory/BeanFactory.java",
+    "test/org/apache/naming/factory/TestBeanFactory.java",
+    "test/org/apache/naming/factory/TesterBean.java"
+  ],
+  "65384": [
+    "java/org/apache/catalina/core/ApplicationDispatcher.java",
+    "java/org/apache/catalina/core/StandardHostValve.java",
+    "test/org/apache/coyote/http2/TestFlowControl.java"
+  ],
+  "55735": [
+    "java/org/apache/jasper/compiler/ELParser.java",
+    "test/org/apache/jasper/compiler/TestELParser.java"
+  ],
+  "48967": [
+    "java/org/apache/catalina/Globals.java",
+    "java/org/apache/catalina/connector/Connector.java",
+    "java/org/apache/catalina/core/StandardContext.java",
+    "java/org/apache/catalina/ha/deploy/FarmWarDeployer.java",
+    "java/org/apache/catalina/manager/ManagerServlet.java",
+    "java/org/apache/catalina/manager/host/HostManagerServlet.java",
+    "java/org/apache/catalina/realm/JAASMemoryLoginModule.java",
+    "java/org/apache/catalina/realm/MemoryRealm.java",
+    "java/org/apache/catalina/startup/Bootstrap.java",
+    "java/org/apache/catalina/startup/Catalina.java",
+    "java/org/apache/catalina/startup/CatalinaProperties.java",
+    "java/org/apache/catalina/startup/Embedded.java",
+    "java/org/apache/catalina/startup/ExpandWar.java",
+    "java/org/apache/catalina/startup/HostConfig.java",
+    "java/org/apache/catalina/startup/Tomcat.java",
+    "java/org/apache/catalina/startup/Tool.java",
+    "java/org/apache/catalina/users/MemoryUserDatabase.java",
+    "java/org/apache/catalina/valves/AccessLogValve.java",
+    "java/org/apache/jasper/compiler/AntCompiler.java",
+    "java/org/apache/tomcat/util/net/AbstractEndpoint.java",
+    "java/org/apache/tomcat/util/net/jsse/JSSESocketFactory.java"
+  ],
+  "44428": [
+    "java/org/apache/el/lang/FunctionMapperImpl.java"
+  ],
+  "44041": [
+    "java/org/apache/catalina/loader/WebappClassLoader.java"
+  ],
+  "51687": [
+    "java/org/apache/catalina/core/JreMemoryLeakPreventionListener.java"
+  ],
+  "66294": [
+    "java/jakarta/el/Util.java"
+  ],
+  "66508": [
+    "java/org/apache/tomcat/util/net/SocketWrapperBase.java",
+    "java/org/apache/tomcat/websocket/WsRemoteEndpointImplBase.java",
+    "java/org/apache/tomcat/websocket/WsRemoteEndpointImplClient.java",
+    "java/org/apache/tomcat/websocket/WsSession.java",
+    "java/org/apache/tomcat/websocket/server/WsHttpUpgradeHandler.java",
+    "java/org/apache/tomcat/websocket/server/WsRemoteEndpointImplServer.java",
+    "test/org/apache/tomcat/websocket/server/TestWsRemoteEndpointImplServerDeadlock.java"
+  ],
+  "66574": [
+    "java/org/apache/tomcat/websocket/WsSession.java"
+  ],
+  "33356": [
+    "java/org/apache/jasper/compiler/ELParser.java"
+  ],
+  "56401": [
+    "java/org/apache/catalina/startup/VersionLoggerListener.java"
+  ],
+  "55470": [
+    "java/org/apache/catalina/loader/WebappClassLoaderBase.java",
+    "java/org/apache/tomcat/util/buf/ToStringUtil.java",
+    "java/org/apache/tomcat/util/digester/Digester.java"
+  ],
+  "62755": [
+    "java/org/apache/catalina/startup/Tomcat.java"
+  ],
+  "68119": [
+    "java/jakarta/el/CompositeELResolver.java",
+    "test/jakarta/el/TestCompositeELResolverPerformance.java"
+  ],
+  "65454": [
+    "java/org/apache/catalina/Executor.java",
+    "java/org/apache/catalina/core/StandardThreadExecutor.java",
+    "java/org/apache/catalina/loader/WebappClassLoaderBase.java",
+    "java/org/apache/tomcat/util/net/AbstractEndpoint.java",
+    "java/org/apache/tomcat/util/threads/ThreadPoolExecutor.java"
+  ],
+  "61101": [
+    "java/org/apache/catalina/filters/CorsFilter.java"
+  ],
+  "48616": [
+    "java/org/apache/jasper/compiler/Generator.java",
+    "java/org/apache/jasper/compiler/Node.java",
+    "java/org/apache/jasper/compiler/ScriptingVariabler.java",
+    "test/org/apache/jasper/compiler/TestScriptingVariabler.java"
+  ],
+  "63684": [
+    "java/org/apache/catalina/realm/RealmBase.java",
+    "java/org/apache/catalina/realm/UserDatabaseRealm.java",
+    "test/org/apache/catalina/core/TestStandardWrapper.java"
+  ],
+  "65763": [
+    "java/org/apache/tomcat/websocket/WsSession.java"
+  ],
+  "57252": [
+    "java/org/apache/coyote/AsyncStateMachine.java"
+  ],
+  "69600": [
+    "java/org/apache/catalina/filters/RemoteIpFilter.java",
+    "java/org/apache/catalina/valves/RemoteIpValve.java",
+    "test/org/apache/catalina/filters/TestRemoteIpFilter.java",
+    "test/org/apache/catalina/valves/TestRemoteIpValve.java"
+  ],
+  "65131": [
+    "java/org/apache/tomcat/util/net/SecureNio2Channel.java",
+    "java/org/apache/tomcat/util/net/SecureNioChannel.java",
+    "java/org/apache/tomcat/util/net/openssl/OpenSSLEngine.java"
+  ],
+  "58660": [
+    "java/org/apache/catalina/mapper/Mapper.java",
+    "java/org/apache/catalina/servlets/WebdavServlet.java"
+  ],
+  "49657": [
+    "java/org/apache/catalina/servlets/CGIServlet.java"
+  ],
+  "55331": [
+    "test/org/apache/catalina/core/TestAsyncContextImpl.java"
+  ],
+  "65940": [
+    "java/org/apache/catalina/core/StandardWrapper.java"
+  ],
+  "52405": [
+    "java/org/apache/catalina/deploy/ContextEjb.java",
+    "java/org/apache/catalina/deploy/ContextEnvironment.java",
+    "java/org/apache/catalina/deploy/ContextHandler.java",
+    "java/org/apache/catalina/deploy/ContextLocalEjb.java",
+    "java/org/apache/catalina/deploy/ContextResource.java",
+    "java/org/apache/catalina/deploy/ContextResourceEnvRef.java",
+    "java/org/apache/catalina/deploy/ContextResourceLink.java",
+    "java/org/apache/catalina/deploy/ContextService.java",
+    "java/org/apache/catalina/deploy/MessageDestination.java",
+    "java/org/apache/catalina/deploy/MessageDestinationRef.java",
+    "java/org/apache/catalina/deploy/ResourceBase.java"
+  ],
+  "66535": [
+    "java/org/apache/catalina/ha/deploy/FileMessageFactory.java"
+  ],
+  "67667": [
+    "java/org/apache/catalina/security/TLSCertificateReloadListener.java"
+  ],
+  "53257": [
+    "java/org/apache/catalina/core/ApplicationContext.java",
+    "java/org/apache/naming/resources/DirContextURLConnection.java",
+    "test/org/apache/catalina/core/TestApplicationContext.java",
+    "test/org/apache/jasper/compiler/TestCompiler.java"
+  ],
+  "49883": [
+    "java/org/apache/catalina/realm/LockOutRealm.java"
+  ],
+  "65317": [
+    "java/org/apache/tomcat/websocket/PerMessageDeflate.java",
+    "test/org/apache/tomcat/websocket/TestPerMessageDeflate.java"
+  ],
+  "34956": [
+    "java/org/apache/catalina/core/ApplicationDispatcher.java",
+    "java/org/apache/catalina/core/ApplicationFilterChain.java"
+  ],
+  "54707": [
+    "java/org/apache/tomcat/util/http/parser/HttpParser.java",
+    "test/org/apache/tomcat/util/http/parser/TestAuthorizationDigest.java"
+  ],
+  "69633": [
+    "java/org/apache/catalina/util/FilterUtil.java",
+    "test/org/apache/catalina/util/TestFilterUtil.java"
+  ],
+  "41869": [
+    "java/org/apache/jasper/compiler/Validator.java"
+  ],
+  "66330": [
+    "java/org/apache/catalina/core/StandardContext.java",
+    "java/org/apache/tomcat/util/log/SystemLogHandler.java"
+  ],
+  "39813": [
+    "java/org/apache/catalina/manager/JMXProxyServlet.java"
+  ],
+  "65563": [
+    "java/org/apache/tomcat/util/http/parser/ContentRange.java",
+    "test/org/apache/catalina/servlets/TestDefaultServletPut.java"
+  ],
+  "40524": [
+    "java/org/apache/catalina/authenticator/Constants.java",
+    "java/org/apache/catalina/authenticator/SSLAuthenticator.java",
+    "java/org/apache/catalina/authenticator/SingleSignOn.java",
+    "java/org/apache/catalina/authenticator/SingleSignOnEntry.java"
+  ],
+  "57157": [
+    "java/org/apache/coyote/http11/AbstractHttp11Processor.java"
+  ],
+  "68054": [
+    "java/org/apache/catalina/webresources/DirResourceSet.java"
+  ],
+  "63859": [
+    "java/org/apache/coyote/ajp/AjpProcessor.java"
+  ],
+  "43343": [
+    "java/org/apache/catalina/session/PersistentManagerBase.java",
+    "java/org/apache/catalina/valves/PersistentValve.java"
+  ],
+  "62023": [
+    "java/org/apache/tomcat/util/net/AprEndpoint.java"
+  ],
+  "64974": [
+    "java/org/apache/coyote/http11/Http11InputBuffer.java",
+    "test/org/apache/coyote/http11/TestHttp11Processor.java"
+  ],
+  "66210": [
+    "test/org/apache/catalina/tribes/group/TestGroupChannelOptionFlag.java",
+    "test/org/apache/catalina/valves/TestErrorReportValve.java",
+    "test/org/apache/coyote/ajp/TestAbstractAjpProcessor.java",
+    "test/org/apache/coyote/ajp/TesterAjpMessage.java",
+    "test/org/apache/coyote/http2/TestFlowControl.java",
+    "test/org/apache/coyote/http2/TestHttp2Limits.java"
+  ],
+  "52724": [
+    "java/org/apache/catalina/startup/Catalina.java"
+  ],
+  "56320": [
+    "test/org/apache/juli/TestFileHandler.java",
+    "test/org/apache/juli/TestFileHandlerNonRotatable.java"
+  ],
+  "66183": [
+    "java/org/apache/catalina/valves/AbstractAccessLogValve.java",
+    "java/org/apache/catalina/valves/ExtendedAccessLogValve.java"
+  ],
+  "64784": [
+    "java/org/apache/jasper/JspC.java",
+    "java/org/apache/jasper/Options.java",
+    "java/org/apache/jasper/compiler/Generator.java"
+  ],
+  "65177": [
+    "test/org/apache/tomcat/util/net/TestSsl.java"
+  ],
+  "69426": [
+    "java/org/apache/catalina/WebResource.java",
+    "java/org/apache/catalina/loader/WebappClassLoaderBase.java",
+    "java/org/apache/catalina/webresources/AbstractArchiveResource.java",
+    "java/org/apache/catalina/webresources/AbstractSingleArchiveResource.java",
+    "java/org/apache/catalina/webresources/CachedResource.java",
+    "java/org/apache/catalina/webresources/EmptyResource.java",
+    "java/org/apache/catalina/webresources/FileResource.java",
+    "java/org/apache/catalina/webresources/JarResource.java",
+    "java/org/apache/catalina/webresources/JarResourceRoot.java",
+    "java/org/apache/catalina/webresources/JarWarResource.java",
+    "java/org/apache/catalina/webresources/WarResource.java"
+  ],
+  "42937": [
+    "java/org/apache/catalina/tribes/tipis/LazyReplicatedMap.java"
+  ],
+  "65001": [
+    "java/org/apache/catalina/connector/CoyoteAdapter.java"
+  ],
+  "65684": [
+    "java/org/apache/juli/ClassLoaderLogManager.java"
+  ],
+  "69429": [
+    "java/org/apache/el/parser/AstMethodParameters.java"
+  ],
+  "69662": [
+    "java/org/apache/naming/NamingContext.java"
+  ],
+  "66511": [
+    "java/org/apache/coyote/http11/filters/GzipOutputFilter.java"
+  ],
+  "66543": [
+    "java/org/apache/catalina/core/StandardContext.java"
+  ],
+  "43453": [
+    "java/org/apache/catalina/core/StandardContext.java"
+  ],
+  "65203": [
+    "java/org/apache/coyote/Request.java"
+  ],
+  "68348": [
+    "java/org/apache/catalina/Context.java",
+    "java/org/apache/catalina/authenticator/AuthenticatorBase.java",
+    "java/org/apache/catalina/authenticator/Constants.java",
+    "java/org/apache/catalina/authenticator/SingleSignOn.java",
+    "java/org/apache/catalina/core/ApplicationSessionCookieConfig.java",
+    "java/org/apache/catalina/core/StandardContext.java",
+    "java/org/apache/catalina/startup/FailedContext.java",
+    "java/org/apache/tomcat/util/descriptor/web/Constants.java",
+    "java/org/apache/tomcat/util/http/CookieProcessorBase.java",
+    "java/org/apache/tomcat/util/http/Rfc6265CookieProcessor.java",
+    "test/org/apache/tomcat/unittest/TesterContext.java",
+    "test/org/apache/tomcat/util/http/TestCookieProcessorGeneration.java"
+  ],
+  "47950": [
+    "java/org/apache/catalina/loader/WebappClassLoader.java"
+  ],
+  "55143": [
+    "java/org/apache/tomcat/websocket/MessageHandlerResult.java",
+    "java/org/apache/tomcat/websocket/MessageHandlerResultType.java",
+    "java/org/apache/tomcat/websocket/Util.java",
+    "java/org/apache/tomcat/websocket/WsSession.java",
+    "java/org/apache/tomcat/websocket/pojo/PojoMessageHandlerBase.java",
+    "java/org/apache/tomcat/websocket/pojo/PojoMessageHandlerWholeBinary.java",
+    "java/org/apache/tomcat/websocket/pojo/PojoMessageHandlerWholeText.java",
+    "java/org/apache/tomcat/websocket/pojo/PojoMethodMapping.java",
+    "test/org/apache/tomcat/websocket/TestWsWebSocketContainer.java",
+    "test/org/apache/tomcat/websocket/TesterEchoServer.java"
+  ],
+  "66281": [
+    "java/org/apache/coyote/http2/Http2UpgradeHandler.java"
+  ],
+  "41089": [
+    "java/org/apache/jasper/compiler/ImplicitTagLibraryInfo.java",
+    "java/org/apache/jasper/compiler/PageDataImpl.java",
+    "java/org/apache/jasper/compiler/Validator.java"
+  ],
+  "49159": [
+    "java/org/apache/catalina/core/StandardContext.java",
+    "java/org/apache/catalina/core/StandardThreadExecutor.java",
+    "java/org/apache/catalina/core/ThreadLocalLeakPreventionListener.java",
+    "java/org/apache/catalina/loader/WebappClassLoader.java",
+    "java/org/apache/catalina/loader/WebappLoader.java",
+    "java/org/apache/tomcat/util/threads/Constants.java",
+    "java/org/apache/tomcat/util/threads/DedicatedThreadExecutor.java",
+    "java/org/apache/tomcat/util/threads/TaskQueue.java",
+    "java/org/apache/tomcat/util/threads/TaskThread.java",
+    "java/org/apache/tomcat/util/threads/TaskThreadFactory.java",
+    "java/org/apache/tomcat/util/threads/ThreadPoolExecutor.java",
+    "test/org/apache/tomcat/util/threads/DedicatedThreadExecutorTest.java"
+  ],
+  "66206": [
+    "test/org/apache/catalina/valves/TestErrorReportValve.java"
+  ],
+  "62731": [
+    "java/org/apache/tomcat/websocket/server/WsHandshakeRequest.java"
+  ],
+  "49555": [
+    "java/org/apache/jasper/compiler/ELFunctionMapper.java",
+    "test/org/apache/el/TestELInJsp.java",
+    "test/org/apache/el/TesterFunctions.java"
+  ],
+  "42314": [
+    "java/org/apache/jasper/compiler/JavacErrorDetail.java"
+  ],
+  "50019": [
+    "java/org/apache/catalina/core/NamingContextListener.java",
+    "java/org/apache/catalina/deploy/NamingResourcesImpl.java",
+    "java/org/apache/naming/LookupRef.java",
+    "java/org/apache/naming/factory/Constants.java",
+    "java/org/apache/naming/factory/LookupFactory.java",
+    "test/org/apache/naming/TestEnvEntry.java",
+    "test/org/apache/naming/TesterEnvEntry.java",
+    "test/org/apache/naming/TesterInjectionServlet.java"
+  ],
+  "69694": [
+    "java/org/apache/catalina/manager/ManagerServlet.java"
+  ],
+  "51910": [
+    "java/org/apache/catalina/core/StandardWrapperValve.java"
+  ],
+  "58157": [
+    "java/org/apache/catalina/core/AsyncContextImpl.java"
+  ],
+  "65586": [
+    "java/org/apache/catalina/webresources/JarContents.java",
+    "test/org/apache/catalina/webresources/TestAbstractArchiveResourceSet.java",
+    "test/org/apache/catalina/webresources/TesterWebResourceRoot.java",
+    "test/org/apache/tomcat/unittest/TesterContext.java"
+  ],
+  "56739": [
+    "java/org/apache/coyote/http11/AbstractHttp11Processor.java"
+  ],
+  "66441": [
+    "java/org/apache/jasper/runtime/PageContextImpl.java",
+    "test/jakarta/servlet/jsp/el/TestImportELResolver.java"
+  ],
+  "65853": [
+    "java/org/apache/catalina/filters/CsrfPreventionFilter.java",
+    "java/org/apache/catalina/filters/CsrfPreventionFilterBase.java",
+    "java/org/apache/catalina/filters/RestCsrfPreventionFilter.java"
+  ],
+  "56840": [
+    "java/org/apache/catalina/valves/rewrite/RewriteValve.java"
+  ],
+  "43757": [
+    "java/org/apache/jasper/compiler/ErrorDispatcher.java"
+  ],
+  "64745": [
+    "java/org/apache/tomcat/dbcp/dbcp2/BasicDataSource.java"
+  ],
+  "45279": [
+    "java/org/apache/catalina/tribes/membership/McastServiceImpl.java"
+  ],
+  "68227": [
+    "java/org/apache/coyote/AsyncStateMachine.java",
+    "test/org/apache/catalina/core/TestAsyncContextImplListenerOnComplete.java"
+  ],
+  "57215": [
+    "java/org/apache/catalina/connector/Request.java",
+    "java/org/apache/tomcat/util/buf/UDecoder.java",
+    "test/org/apache/catalina/connector/TestRequest.java"
+  ],
+  "43468": [
+    "java/org/apache/catalina/manager/HTMLManagerServlet.java",
+    "java/org/apache/catalina/realm/RealmBase.java"
+  ],
+  "56518": [
+    "java/org/apache/tomcat/util/net/NioEndpoint.java"
+  ],
+  "61916": [
+    "java/org/apache/catalina/filters/AddDefaultCharsetFilter.java"
+  ],
+  "59203": [
+    "java/org/apache/catalina/loader/WebappClassLoaderBase.java"
+  ],
+  "50570": [
+    "java/org/apache/catalina/core/AprLifecycleListener.java",
+    "java/org/apache/tomcat/jni/SSL.java"
+  ],
+  "58566": [
+    "java/org/apache/tomcat/util/net/AprEndpoint.java",
+    "java/org/apache/tomcat/util/net/SSLHostConfig.java"
+  ],
+  "63412": [
+    "java/org/apache/catalina/security/SecurityClassLoad.java"
+  ],
+  "41752": [
+    "java/org/apache/catalina/realm/MemoryRealm.java"
+  ],
+  "64506": [
+    "java/org/apache/catalina/webresources/Cache.java",
+    "java/org/apache/catalina/webresources/CachedResource.java"
+  ],
+  "57661": [
+    "java/org/apache/catalina/authenticator/FormAuthenticator.java",
+    "java/org/apache/catalina/connector/Response.java",
+    "java/org/apache/catalina/core/StandardContextValve.java",
+    "java/org/apache/coyote/AbstractProcessor.java",
+    "java/org/apache/coyote/ContinueResponseTiming.java",
+    "java/org/apache/coyote/Request.java",
+    "java/org/apache/coyote/ajp/AjpProcessor.java",
+    "java/org/apache/coyote/http11/AbstractHttp11Protocol.java",
+    "java/org/apache/coyote/http11/Http11OutputBuffer.java",
+    "java/org/apache/coyote/http11/Http11Processor.java",
+    "java/org/apache/coyote/http2/Http2Protocol.java",
+    "java/org/apache/coyote/http2/StreamProcessor.java",
+    "test/org/apache/catalina/core/TestStandardContextValve.java",
+    "test/org/apache/catalina/startup/ExpectationClient.java",
+    "test/org/apache/coyote/TestRequest.java",
+    "test/org/apache/coyote/http11/TestHttp11OutputBuffer.java",
+    "test/org/apache/coyote/http2/TestHttp2Section_8_1.java"
+  ],
+  "66591": [
+    "test/org/apache/coyote/ajp/TesterAjpMessage.java"
+  ],
+  "52953": [
+    "java/org/apache/catalina/realm/RealmBase.java"
+  ],
+  "57708": [
+    "java/org/apache/catalina/authenticator/AuthenticatorBase.java",
+    "java/org/apache/catalina/authenticator/BasicAuthenticator.java",
+    "java/org/apache/catalina/authenticator/DigestAuthenticator.java",
+    "java/org/apache/catalina/authenticator/FormAuthenticator.java",
+    "java/org/apache/catalina/authenticator/SSLAuthenticator.java",
+    "java/org/apache/catalina/authenticator/SpnegoAuthenticator.java"
+  ],
+  "69706": [
+    "java/org/apache/catalina/authenticator/FormAuthenticator.java",
+    "java/org/apache/catalina/authenticator/SavedRequest.java"
+  ],
+  "66635": [
+    "java/org/apache/tomcat/util/net/AbstractEndpoint.java",
+    "java/org/apache/tomcat/util/net/SSLHostConfigCertificate.java"
+  ],
+  "40901": [
+    "java/org/apache/catalina/servlets/DefaultServlet.java",
+    "java/org/apache/catalina/users/MemoryUserDatabase.java"
+  ],
+  "43868": [
+    "java/org/apache/tomcat/util/modeler/ManagedBean.java"
+  ],
+  "61566": [
+    "java/org/apache/catalina/manager/ManagerServlet.java"
+  ],
+  "69532": [
+    "java/jakarta/el/ExpressionFactoryCache.java",
+    "java/jakarta/el/Util.java",
+    "test/jakarta/el/TestExpressionFactoryCache.java"
+  ],
+  "49655": [
+    "test/org/apache/el/TestMethodExpressionImpl.java"
+  ],
+  "46925": [
+    "java/org/apache/catalina/realm/JNDIRealm.java"
+  ],
+  "69466": [
+    "java/org/apache/catalina/connector/OutputBuffer.java",
+    "java/org/apache/coyote/http11/Http11Processor.java",
+    "java/org/apache/coyote/http2/StreamProcessor.java",
+    "test/jakarta/servlet/http/HttpServletDoHeadBaseTest.java",
+    "test/jakarta/servlet/http/TestHttpServlet.java",
+    "test/jakarta/servlet/http/TesterConstants.java",
+    "test/org/apache/coyote/http11/TestHttp11ProcessorDoHead.java"
+  ],
+  "69068": [
+    "java/org/apache/coyote/http2/Stream.java",
+    "java/org/apache/coyote/http2/StreamProcessor.java",
+    "test/org/apache/coyote/http2/Http2TestBase.java",
+    "test/org/apache/coyote/http2/TestAsyncReadListener.java"
+  ],
+  "66527": [
+    "java/org/apache/catalina/startup/Tomcat.java"
+  ],
+  "64432": [
+    "test/org/apache/catalina/valves/rewrite/TestRewriteValve.java"
+  ],
+  "67235": [
+    "java/org/apache/catalina/connector/CoyoteAdapter.java"
+  ],
+  "57938": [
+    "test/org/apache/catalina/connector/TestRequest.java"
+  ],
+  "56825": [
+    "java/org/apache/catalina/authenticator/AuthenticatorBase.java",
+    "java/org/apache/catalina/authenticator/SSLAuthenticator.java",
+    "java/org/apache/coyote/http11/Http11AprProcessor.java",
+    "java/org/apache/coyote/http11/Http11Nio2Processor.java",
+    "java/org/apache/coyote/http11/Http11NioProcessor.java",
+    "java/org/apache/coyote/http11/Http11Processor.java",
+    "test/org/apache/tomcat/util/net/TestClientCert.java"
+  ],
+  "44558": [
+    "java/org/apache/tomcat/util/net/JIoEndpoint.java"
+  ],
+  "55975": [
+    "test/org/apache/tomcat/util/http/TestSetCookieSupportSeparatorsAllowed.java"
+  ],
+  "67675": [
+    "java/org/apache/tomcat/util/buf/Asn1Parser.java",
+    "java/org/apache/tomcat/util/net/jsse/PEMFile.java",
+    "test/org/apache/tomcat/util/net/jsse/TestPEMFile.java"
+  ],
+  "40518": [
+    "java/org/apache/catalina/core/StandardContextValve.java"
+  ],
+  "51912": [
+    "java/org/apache/coyote/http11/InternalNioInputBuffer.java"
+  ],
+  "49464": [
+    "java/org/apache/catalina/servlets/DefaultServlet.java",
+    "test/org/apache/catalina/servlets/TestDefaultServlet.java"
+  ],
+  "68068": [
+    "java/org/apache/el/parser/SimpleNode.java"
+  ],
+  "34509": [
+    "java/org/apache/jasper/compiler/Generator.java"
+  ],
+  "39689": [
+    "java/org/apache/catalina/ssi/SSIProcessor.java"
+  ],
+  "68026": [
+    "java/org/apache/catalina/connector/Request.java",
+    "java/org/apache/tomcat/util/buf/MessageBytes.java"
+  ],
+  "62628": [
+    "test/org/apache/coyote/http2/TestAsync.java"
+  ],
+  "52760": [
+    "java/org/apache/catalina/filters/ExpiresFilter.java"
+  ],
+  "61491": [
+    "java/org/apache/tomcat/websocket/PerMessageDeflate.java"
+  ],
+  "62912": [
+    "test/org/apache/coyote/TestResponse.java"
+  ],
+  "57653": [
+    "java/org/apache/tomcat/util/net/AprEndpoint.java"
+  ],
+  "56903": [
+    "test/org/apache/catalina/core/TestStandardContext.java"
+  ],
+  "69598": [
+    "java/org/apache/catalina/tribes/membership/cloud/KubernetesMembershipProvider.java",
+    "java/org/apache/catalina/tribes/membership/cloud/TokenStreamProvider.java"
+  ],
+  "65726": [
+    "java/org/apache/coyote/http11/Http11Processor.java",
+    "java/org/apache/coyote/http11/upgrade/UpgradeApplicationBufferHandler.java",
+    "java/org/apache/coyote/http2/Stream.java",
+    "test/org/apache/coyote/http2/Http2TestBase.java",
+    "test/org/apache/coyote/http2/TestHttp2UpgradeHandler.java"
+  ],
+  "29936": [
+    "java/org/apache/catalina/startup/ContextConfig.java"
+  ],
+  "43687": [
+    "java/org/apache/catalina/authenticator/FormAuthenticator.java"
+  ],
+  "47852": [
+    "java/org/apache/tomcat/jni/Local.java",
+    "java/org/apache/tomcat/jni/Poll.java",
+    "java/org/apache/tomcat/jni/Registry.java",
+    "java/org/apache/tomcat/jni/Socket.java"
+  ],
+  "51310": [
+    "java/org/apache/catalina/startup/ContextConfig.java"
+  ],
+  "55839": [
+    "java/org/apache/catalina/realm/DataSourceRealm.java",
+    "java/org/apache/catalina/realm/JDBCRealm.java",
+    "java/org/apache/catalina/realm/MemoryRealm.java"
+  ],
+  "41466": [
+    "java/org/apache/tomcat/util/net/NioSelectorPool.java"
+  ],
+  "47453": [
+    "java/org/apache/jasper/compiler/Validator.java"
+  ],
+  "45794": [
+    "java/org/apache/catalina/realm/JNDIRealm.java"
+  ],
+  "60409": [
+    "test/org/apache/catalina/connector/TestSendFile.java"
+  ],
+  "58178": [
+    "java/org/apache/jasper/runtime/JspApplicationContextImpl.java",
+    "java/org/apache/jasper/runtime/JspContextWrapper.java",
+    "test/org/apache/jasper/runtime/TestJspContextWrapper.java"
+  ],
+  "63286": [
+    "java/org/apache/catalina/valves/AbstractAccessLogValve.java"
+  ],
+  "64403": [
+    "java/org/apache/coyote/http2/StreamProcessor.java",
+    "test/org/apache/coyote/http2/TestStreamProcessor.java"
+  ],
+  "54377": [
+    "java/org/apache/jasper/compiler/JspUtil.java"
+  ],
+  "65553": [
+    "java/org/apache/catalina/realm/JNDIRealm.java"
+  ],
+  "69419": [
+    "java/org/apache/catalina/core/ApplicationHttpRequest.java",
+    "test/org/apache/catalina/core/TestApplicationHttpRequest.java",
+    "test/org/apache/catalina/core/TesterApplicationHttpRequestPerformance.java"
+  ],
+  "58624": [
+    "java/org/apache/tomcat/websocket/WsSession.java"
+  ],
+  "69360": [
+    "java/org/apache/catalina/servlets/WebdavServlet.java"
+  ],
+  "66184": [
+    "java/org/apache/juli/ClassLoaderLogManager.java",
+    "test/org/apache/juli/TestClassLoaderLogManager.java"
+  ],
+  "69121": [
+    "java/org/apache/catalina/core/AsyncContextImpl.java",
+    "test/org/apache/catalina/core/TestAsyncContextImplListenerOnComplete.java"
+  ],
+  "66582": [
+    "java/org/apache/jasper/runtime/PageContextImpl.java",
+    "test/jakarta/servlet/jsp/el/TestImportELResolver.java",
+    "test/org/apache/tomcat/unittest/TesterBug66582.java"
+  ],
+  "60718": [
+    "java/org/apache/coyote/AbstractProcessor.java"
+  ],
+  "69333": [
+    "java/org/apache/jasper/compiler/Generator.java",
+    "java/org/apache/jasper/runtime/JspRuntimeLibrary.java",
+    "test/org/apache/jasper/compiler/TestGenerator.java"
+  ],
+  "49030": [
+    "java/org/apache/catalina/core/StandardService.java"
+  ],
+  "54012": [
+    "test/org/apache/jasper/tagplugins/jstl/core/AbstractTestTag.java",
+    "test/org/apache/jasper/tagplugins/jstl/core/TestOut.java",
+    "test/org/apache/jasper/tagplugins/jstl/core/TestSet.java"
+  ],
+  "64848": [
+    "java/org/apache/coyote/AbstractProtocol.java",
+    "java/org/apache/tomcat/websocket/WsRemoteEndpointImplBase.java",
+    "test/org/apache/tomcat/websocket/TestWebSocketFrameClient.java",
+    "test/org/apache/tomcat/websocket/TestWebSocketFrameClientSSL.java",
+    "test/org/apache/tomcat/websocket/TesterFirehoseServer.java",
+    "test/org/apache/tomcat/websocket/server/TestSlowClient.java"
+  ],
+  "39088": [
+    "java/org/apache/catalina/core/StandardWrapper.java",
+    "java/org/apache/catalina/valves/ErrorReportValve.java"
+  ],
+  "69359": [
+    "java/org/apache/catalina/servlets/WebdavServlet.java"
+  ],
+  "51584": [
+    "java/org/apache/catalina/core/ApplicationContext.java",
+    "java/org/apache/naming/resources/DirContextURLConnection.java",
+    "test/org/apache/jasper/compiler/TestCompiler.java"
+  ],
+  "69696": [
+    "java/org/apache/jasper/JspCompilationContext.java"
+  ],
+  "56588": [
+    "java/org/apache/catalina/core/StandardContext.java"
+  ],
+  "57338": [
+    "java/org/apache/catalina/authenticator/SingleSignOn.java",
+    "java/org/apache/catalina/authenticator/SingleSignOnEntry.java",
+    "java/org/apache/catalina/authenticator/SingleSignOnListener.java",
+    "java/org/apache/catalina/ha/authenticator/ClusterSingleSignOn.java"
+  ],
+  "49884": [
+    "java/org/apache/catalina/connector/CoyoteAdapter.java",
+    "java/org/apache/catalina/connector/Request.java",
+    "java/org/apache/catalina/core/AsyncContextImpl.java",
+    "java/org/apache/catalina/security/SecurityClassLoad.java",
+    "java/org/apache/coyote/ActionCode.java",
+    "java/org/apache/coyote/ajp/AjpAprProcessor.java",
+    "java/org/apache/coyote/ajp/AjpAprProtocol.java",
+    "java/org/apache/coyote/http11/AbstractHttp11Processor.java",
+    "java/org/apache/coyote/http11/Constants.java",
+    "java/org/apache/coyote/http11/Http11AprProcessor.java",
+    "java/org/apache/coyote/http11/Http11AprProtocol.java",
+    "java/org/apache/coyote/http11/Http11NioProcessor.java",
+    "java/org/apache/coyote/http11/Http11NioProtocol.java",
+    "java/org/apache/coyote/http11/Http11Processor.java",
+    "java/org/apache/coyote/http11/Http11Protocol.java",
+    "java/org/apache/tomcat/util/net/AbstractEndpoint.java",
+    "java/org/apache/tomcat/util/net/AprEndpoint.java",
+    "java/org/apache/tomcat/util/net/JIoEndpoint.java",
+    "java/org/apache/tomcat/util/net/NioEndpoint.java",
+    "java/org/apache/tomcat/util/net/SocketWrapper.java",
+    "test/org/apache/catalina/core/TestAsyncContextImpl.java"
+  ],
+  "41666": [
+    "java/org/apache/catalina/servlets/DefaultServlet.java"
+  ],
+  "64110": [
+    "java/org/apache/catalina/connector/Request.java",
+    "java/org/apache/catalina/util/TLSUtil.java",
+    "java/org/apache/coyote/AbstractProcessor.java",
+    "java/org/apache/tomcat/util/buf/HexUtils.java",
+    "java/org/apache/tomcat/util/net/AprSSLSupport.java",
+    "java/org/apache/tomcat/util/net/Nio2Endpoint.java",
+    "java/org/apache/tomcat/util/net/NioEndpoint.java",
+    "java/org/apache/tomcat/util/net/SSLImplementation.java",
+    "java/org/apache/tomcat/util/net/SSLSupport.java",
+    "java/org/apache/tomcat/util/net/SecureNio2Channel.java",
+    "java/org/apache/tomcat/util/net/SecureNioChannel.java",
+    "java/org/apache/tomcat/util/net/TLSClientHelloExtractor.java",
+    "java/org/apache/tomcat/util/net/jsse/JSSEImplementation.java",
+    "java/org/apache/tomcat/util/net/jsse/JSSESupport.java",
+    "java/org/apache/tomcat/util/net/openssl/OpenSSLImplementation.java",
+    "test/org/apache/tomcat/util/buf/TestHexUtils.java"
+  ],
+  "51741": [
+    "java/org/apache/catalina/core/StandardContext.java",
+    "java/org/apache/catalina/loader/WebappClassLoader.java",
+    "java/org/apache/catalina/startup/ContextConfig.java",
+    "java/org/apache/naming/resources/VirtualDirContext.java",
+    "test/org/apache/catalina/loader/EchoTag.java",
+    "test/org/apache/catalina/loader/MyAnnotatedServlet.java",
+    "test/org/apache/catalina/loader/TestVirtualContext.java"
+  ],
+  "64188": [
+    "java/org/apache/coyote/AbstractProcessor.java"
+  ],
+  "64097": [
+    "java/jakarta/el/ExpressionFactory.java"
+  ],
+  "64621": [
+    "java/org/apache/coyote/http2/Http2UpgradeHandler.java",
+    "java/org/apache/coyote/http2/Stream.java",
+    "test/org/apache/coyote/http2/TestHttp2Section_5_1.java"
+  ],
+  "53333": [
+    "java/org/apache/catalina/core/DefaultInstanceManager.java",
+    "java/org/apache/catalina/startup/ContextConfig.java",
+    "java/org/apache/catalina/startup/WebAnnotationSet.java",
+    "java/org/apache/catalina/util/Introspection.java"
+  ],
+  "45906": [
+    "java/org/apache/naming/resources/ResourceAttributes.java"
+  ],
+  "66393": [
+    "java/org/apache/catalina/valves/ExtendedAccessLogValve.java"
+  ],
+  "47841": [
+    "java/org/apache/catalina/realm/CombinedRealm.java",
+    "java/org/apache/catalina/realm/DataSourceRealm.java",
+    "java/org/apache/catalina/realm/JAASRealm.java",
+    "java/org/apache/catalina/realm/JDBCRealm.java",
+    "java/org/apache/catalina/realm/JNDIRealm.java"
+  ],
+  "65433": [
+    "java/org/apache/catalina/webresources/DirResourceSet.java"
+  ],
+  "42509": [
+    "java/javax/el/BeanELResolver.java",
+    "java/javax/el/ResourceBundleELResolver.java",
+    "java/javax/servlet/jsp/el/ScopedAttributeELResolver.java",
+    "java/javax/servlet/jsp/tagext/TagInfo.java"
+  ],
+  "40860": [
+    "java/org/apache/catalina/connector/Request.java",
+    "java/org/apache/tomcat/util/http/Parameters.java"
+  ],
+  "48627": [
+    "test/org/apache/jasper/compiler/TestParser.java"
+  ],
+  "65776": [
+    "java/org/apache/catalina/webresources/AbstractArchiveResource.java",
+    "java/org/apache/tomcat/util/net/Nio2Endpoint.java",
+    "java/org/apache/tomcat/util/net/NioEndpoint.java"
+  ],
+  "66068": [
+    "java/org/apache/catalina/valves/RemoteIpValve.java"
+  ],
+  "64190": [
+    "java/org/apache/juli/OneLineFormatter.java",
+    "test/org/apache/juli/TestOneLineFormatterMillisPerformance.java"
+  ],
+  "44392": [
+    "java/org/apache/catalina/ssi/SSIEcho.java",
+    "java/org/apache/catalina/ssi/SSIMediator.java"
+  ],
+  "65397": [
+    "java/org/apache/catalina/webresources/AbstractFileResourceSet.java",
+    "java/org/apache/catalina/webresources/DirResourceSet.java"
+  ],
+  "41074": [
+    "java/org/apache/jasper/compiler/Generator.java"
+  ],
+  "62897": [
+    "java/org/apache/catalina/core/StandardContext.java"
+  ],
+  "65251": [
+    "java/org/apache/catalina/startup/HostConfig.java"
+  ],
+  "54928": [
+    "test/org/apache/catalina/connector/TestCoyoteAdapter.java"
+  ],
+  "63026": [
+    "java/org/apache/catalina/realm/JNDIRealm.java"
+  ],
+  "69699": [
+    "java/org/apache/catalina/connector/Request.java",
+    "java/org/apache/catalina/valves/rewrite/RewriteValve.java"
+  ],
+  "48004": [
+    "java/org/apache/coyote/http11/Http11AprProcessor.java",
+    "java/org/apache/coyote/http11/Http11NioProcessor.java",
+    "java/org/apache/coyote/http11/Http11Processor.java"
+  ],
+  "66548": [
+    "java/org/apache/tomcat/util/codec/binary/Base64.java",
+    "java/org/apache/tomcat/websocket/server/UpgradeUtil.java",
+    "test/org/apache/tomcat/websocket/server/TestKeyHeader.java",
+    "test/org/apache/tomcat/websocket/server/TesterWsClient.java"
+  ],
+  "66670": [
+    "java/org/apache/tomcat/util/net/SSLHostConfig.java",
+    "java/org/apache/tomcat/util/net/SSLHostConfigCertificate.java",
+    "java/org/apache/tomcat/util/net/SSLUtilBase.java",
+    "java/org/apache/tomcat/util/net/jsse/PEMFile.java",
+    "java/org/apache/tomcat/util/net/openssl/OpenSSLContext.java",
+    "test/org/apache/tomcat/util/net/TestSsl.java",
+    "test/org/apache/tomcat/util/net/TesterSupport.java",
+    "test/org/apache/tomcat/util/net/jsse/TestPEMFile.java"
+  ],
+  "38713": [
+    "java/org/apache/jasper/JspCompilationContext.java",
+    "java/org/apache/jasper/compiler/Compiler.java",
+    "java/org/apache/jasper/servlet/JspServletWrapper.java"
+  ],
+  "66471": [
+    "java/org/apache/catalina/Globals.java",
+    "java/org/apache/catalina/connector/Request.java",
+    "java/org/apache/catalina/filters/RemoteIpFilter.java",
+    "test/org/apache/catalina/filters/TestRemoteIpFilter.java"
+  ],
+  "69634": [
+    "java/org/apache/catalina/valves/JsonErrorReportValve.java"
+  ],
+  "45317": [
+    "java/org/apache/catalina/ha/session/DeltaManager.java"
+  ],
+  "39572": [
+    "webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.java",
+    "webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java",
+    "webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java"
+  ],
+  "36155": [
+    "java/org/apache/coyote/ajp/AjpMessage.java",
+    "java/org/apache/jk/common/MsgAjp.java"
+  ],
+  "67666": [
+    "java/org/apache/tomcat/util/net/openssl/OpenSSLContext.java",
+    "java/org/apache/tomcat/util/net/openssl/OpenSSLUtil.java",
+    "java/org/apache/tomcat/util/net/openssl/panama/OpenSSLContext.java",
+    "java/org/apache/tomcat/util/net/openssl/panama/OpenSSLUtil.java",
+    "modules/openssl-foreign/src/main/java/org/apache/tomcat/util/net/openssl/panama/OpenSSLContext.java",
+    "modules/openssl-foreign/src/main/java/org/apache/tomcat/util/net/openssl/panama/OpenSSLUtil.java"
+  ],
+  "66554": [
+    "java/org/apache/catalina/core/JreMemoryLeakPreventionListener.java",
+    "java/org/apache/catalina/core/StandardServer.java"
+  ],
+  "69447": [
+    "java/org/apache/catalina/loader/WebappClassLoaderBase.java"
+  ],
+  "63627": [
+    "java/org/apache/catalina/realm/CombinedRealm.java",
+    "java/org/apache/catalina/realm/RealmBase.java"
+  ],
+  "65785": [
+    "java/org/apache/coyote/http2/StreamProcessor.java",
+    "test/org/apache/coyote/http2/TestStreamProcessor.java"
+  ],
+  "55799": [
+    "java/org/apache/tomcat/websocket/WsRemoteEndpointImplBase.java"
+  ],
+  "40150": [
+    "java/org/apache/catalina/realm/JAASRealm.java"
+  ],
+  "65244": [
+    "java/org/apache/catalina/startup/ContextConfig.java",
+    "java/org/apache/tomcat/util/bcel/classfile/ClassParser.java",
+    "java/org/apache/tomcat/util/bcel/classfile/JavaClass.java",
+    "java/org/apache/tomcat/util/bcel/classfile/Utility.java",
+    "test/org/apache/tomcat/util/scan/FooSCI.java",
+    "test/org/apache/tomcat/util/scan/TestClassParser.java"
+  ],
+  "56029": [
+    "java/org/apache/jasper/compiler/ELParser.java",
+    "test/org/apache/el/TestELInJsp.java",
+    "test/org/apache/jasper/compiler/TestELParser.java"
+  ],
+  "69439": [
+    "java/org/apache/catalina/filters/ExpiresFilter.java",
+    "test/org/apache/catalina/filters/TestExpiresFilter.java"
+  ],
+  "65390": [
+    "java/org/apache/jasper/compiler/Generator.java",
+    "test/org/apache/jasper/compiler/TestGenerator.java"
+  ],
+  "57476": [
+    "java/org/apache/catalina/core/ApplicationDispatcher.java",
+    "java/org/apache/catalina/core/StandardHostValve.java"
+  ],
+  "58590": [
+    "java/org/apache/catalina/users/MemoryUserDatabase.java"
+  ],
+  "66388": [
+    "java/org/apache/catalina/webresources/AbstractArchiveResource.java"
+  ],
+  "44312": [
+    "test/org/apache/catalina/mapper/TestMapper.java"
+  ],
+  "66512": [
+    "java/org/apache/coyote/ajp/AjpProcessor.java",
+    "test/org/apache/coyote/ajp/TestAbstractAjpProcessor.java"
+  ],
+  "64771": [
+    "java/org/apache/catalina/connector/CoyoteAdapter.java",
+    "java/org/apache/catalina/connector/InputBuffer.java",
+    "java/org/apache/coyote/Request.java"
+  ],
+  "43887": [
+    "java/org/apache/catalina/core/StandardWrapper.java"
+  ],
+  "49865": [
+    "java/org/apache/catalina/startup/CatalinaProperties.java"
+  ],
+  "63949": [
+    "java/org/apache/tomcat/util/net/NioEndpoint.java"
+  ],
+  "68862": [
+    "java/org/apache/catalina/connector/InputBuffer.java"
+  ],
+  "65506": [
+    "java/org/apache/tomcat/websocket/WsSession.java"
+  ],
+  "64202": [
+    "java/org/apache/tomcat/util/net/NioEndpoint.java"
+  ],
+  "56661": [
+    "java/org/apache/coyote/ajp/AbstractAjpProcessor.java",
+    "java/org/apache/coyote/ajp/Constants.java"
+  ],
+  "68035": [
+    "java/org/apache/catalina/manager/ManagerServlet.java"
+  ],
+  "59823": [
+    "java/org/apache/catalina/authenticator/AuthenticatorBase.java",
+    "java/org/apache/catalina/authenticator/BasicAuthenticator.java",
+    "java/org/apache/catalina/authenticator/DigestAuthenticator.java",
+    "java/org/apache/catalina/authenticator/FormAuthenticator.java",
+    "java/org/apache/catalina/authenticator/NonLoginAuthenticator.java",
+    "java/org/apache/catalina/authenticator/SSLAuthenticator.java",
+    "java/org/apache/catalina/authenticator/SpnegoAuthenticator.java"
+  ],
+  "63982": [
+    "java/org/apache/catalina/realm/CombinedRealm.java"
+  ],
+  "49424": [
+    "test/org/apache/catalina/connector/TestRequest.java"
+  ],
+  "69206": [
+    "modules/jdbc-pool/src/main/java/org/apache/tomcat/jdbc/pool/StatementFacade.java",
+    "modules/jdbc-pool/src/main/java/org/apache/tomcat/jdbc/pool/interceptor/AbstractCreateStatementInterceptor.java",
+    "modules/jdbc-pool/src/test/java/org/apache/tomcat/jdbc/test/ProxiedResultSetTest.java",
+    "modules/jdbc-pool/src/test/java/org/apache/tomcat/jdbc/test/ProxiedStatementTest.java",
+    "modules/jdbc-pool/src/test/java/org/apache/tomcat/jdbc/test/driver/ResultSet.java",
+    "modules/jdbc-pool/src/test/java/org/apache/tomcat/jdbc/test/driver/Statement.java"
+  ],
+  "63636": [
+    "java/org/apache/catalina/core/StandardWrapper.java",
+    "java/org/apache/catalina/realm/RealmBase.java",
+    "test/org/apache/catalina/core/TestStandardWrapper.java",
+    "test/org/apache/catalina/realm/TestRealmBase.java"
+  ],
+  "64947": [
+    "java/org/apache/catalina/connector/Request.java",
+    "java/org/apache/coyote/http11/upgrade/UpgradeProcessorInternal.java",
+    "java/org/apache/tomcat/util/http/parser/Upgrade.java",
+    "test/org/apache/tomcat/util/http/parser/TestUpgrade.java"
+  ],
+  "64593": [
+    "java/org/apache/catalina/connector/CoyoteAdapter.java",
+    "java/org/apache/catalina/core/StandardEngineValve.java",
+    "java/org/apache/catalina/core/StandardHostValve.java"
+  ],
+  "63816": [
+    "test/org/apache/catalina/core/TestAsyncContextImpl.java"
+  ],
+  "51956": [
+    "java/org/apache/catalina/filters/RemoteAddrFilter.java"
+  ],
+  "56199": [
+    "java/org/apache/jasper/JspC.java",
+    "java/org/apache/jasper/servlet/JspCServletContext.java",
+    "test/org/apache/jasper/servlet/TestJspCServletContext.java"
+  ],
+  "65047": [
+    "java/org/apache/catalina/valves/AccessLogValve.java"
+  ],
+  "66392": [
+    "java/org/apache/catalina/valves/AccessLogValve.java"
+  ],
+  "64849": [
+    "java/jakarta/el/ExpressionFactory.java",
+    "java/org/apache/el/ExpressionFactoryImpl.java"
+  ],
+  "69545": [
+    "java/org/apache/coyote/http11/filters/ChunkedInputFilter.java",
+    "test/org/apache/coyote/http11/filters/TestChunkedInputFilter.java"
+  ],
+  "31257": [
+    "java/org/apache/jasper/compiler/AntCompiler.java"
+  ],
+  "64765": [
+    "java/org/apache/tomcat/util/threads/ThreadPoolExecutor.java"
+  ],
+  "65848": [
+    "java/org/apache/tomcat/util/net/openssl/OpenSSLContext.java",
+    "modules/openssl-java17/src/main/java/org/apache/tomcat/util/net/openssl/panama/OpenSSLContext.java"
+  ],
+  "64715": [
+    "java/org/apache/catalina/authenticator/AuthenticatorBase.java",
+    "java/org/apache/catalina/authenticator/jaspic/CallbackHandlerImpl.java",
+    "test/org/apache/catalina/authenticator/TestJaspicCallbackHandlerInAuthenticator.java"
+  ],
+  "69710": [
+    "java/org/apache/catalina/connector/Connector.java"
+  ],
+  "51881": [
+    "java/org/apache/catalina/core/ApplicationFilterFactory.java",
+    "java/org/apache/coyote/http11/AbstractHttp11Processor.java",
+    "java/org/apache/coyote/http11/Http11NioProcessor.java"
+  ],
+  "47330": [
+    "java/org/apache/catalina/connector/Request.java"
+  ],
+  "60781": [
+    "java/org/apache/catalina/valves/AbstractAccessLogValve.java",
+    "test/org/apache/catalina/valves/TestAbstractAccessLogValveEscape.java"
+  ],
+  "51811": [
+    "java/org/apache/coyote/http11/AbstractHttp11JsseProtocol.java",
+    "test/org/apache/tomcat/util/net/TestCustomSsl.java"
+  ],
+  "51544": [
+    "test/org/apache/el/TestELInJsp.java",
+    "test/org/apache/el/TestValueExpressionImpl.java",
+    "test/org/apache/el/TesterBeanA.java"
+  ],
+  "43758": [
+    "java/org/apache/jasper/compiler/Node.java"
+  ],
+  "49132": [
+    "test/org/apache/catalina/core/TestNamingContextListener.java"
+  ],
+  "42840": [
+    "java/org/apache/catalina/tribes/tipis/AbstractReplicatedMap.java"
+  ],
+  "65303": [
+    "java/org/apache/coyote/http2/Stream.java"
+  ],
+  "43840": [
+    "java/org/apache/catalina/ha/session/SerializablePrincipal.java",
+    "test/org/apache/catalina/ha/session/TestPrincipal.java",
+    "test/org/apache/catalina/ha/session/TestSerializablePrincipal.java"
+  ],
+  "58999": [
+    "java/org/apache/catalina/loader/WebappClassLoaderBase.java",
+    "test/org/apache/catalina/loader/TestWebappClassLoader.java"
+  ],
+  "43656": [
+    "java/org/apache/el/lang/ELSupport.java",
+    "test/org/apache/el/lang/TestELSupport.java"
+  ],
+  "42803": [
+    "java/org/apache/catalina/tribes/tipis/AbstractReplicatedMap.java"
+  ],
+  "69527": [
+    "java/org/apache/catalina/webresources/CachedResource.java"
+  ],
+  "69316": [
+    "java/org/apache/tomcat/util/http/FastHttpDateFormat.java",
+    "test/org/apache/tomcat/util/http/TestFastHttpDateFormat.java"
+  ],
+  "42648": [
+    "java/org/apache/catalina/tribes/transport/nio/NioReplicationTask.java"
+  ],
+  "69133": [
+    "java/org/apache/coyote/AbstractProtocol.java",
+    "java/org/apache/tomcat/util/net/AbstractEndpoint.java"
+  ],
+  "64011": [
+    "java/org/apache/catalina/realm/JNDIRealm.java",
+    "java/org/apache/catalina/realm/RealmBase.java"
+  ],
+  "48822": [
+    "java/org/apache/catalina/core/StandardContext.java"
+  ],
+  "64007": [
+    "java/org/apache/tomcat/util/net/NioEndpoint.java"
+  ],
+  "65262": [
+    "java/jakarta/websocket/server/ServerEndpointConfig.java",
+    "java/org/apache/tomcat/websocket/ClientEndpointHolder.java",
+    "java/org/apache/tomcat/websocket/EndpointClassHolder.java",
+    "java/org/apache/tomcat/websocket/EndpointHolder.java",
+    "java/org/apache/tomcat/websocket/PojoClassHolder.java",
+    "java/org/apache/tomcat/websocket/PojoHolder.java",
+    "java/org/apache/tomcat/websocket/Util.java",
+    "java/org/apache/tomcat/websocket/WsRemoteEndpointImplBase.java",
+    "java/org/apache/tomcat/websocket/WsSession.java",
+    "java/org/apache/tomcat/websocket/WsWebSocketContainer.java",
+    "java/org/apache/tomcat/websocket/pojo/PojoEndpointClient.java",
+    "java/org/apache/tomcat/websocket/pojo/PojoEndpointServer.java",
+    "java/org/apache/tomcat/websocket/pojo/PojoMessageHandlerWholeBase.java",
+    "java/org/apache/tomcat/websocket/pojo/PojoMessageHandlerWholeBinary.java",
+    "java/org/apache/tomcat/websocket/pojo/PojoMessageHandlerWholeText.java",
+    "java/org/apache/tomcat/websocket/pojo/PojoMethodMapping.java",
+    "java/org/apache/tomcat/websocket/server/UpgradeUtil.java",
+    "java/org/apache/tomcat/websocket/server/WsHttpUpgradeHandler.java",
+    "java/org/apache/tomcat/websocket/server/WsServerContainer.java",
+    "test/org/apache/tomcat/websocket/TesterWsClientAutobahn.java"
+  ],
+  "64921": [
+    "java/org/apache/catalina/valves/LoadBalancerDrainingValve.java",
+    "test/org/apache/catalina/valves/TestLoadBalancerDrainingValve.java"
+  ],
+  "63362": [
+    "java/org/apache/catalina/connector/Request.java",
+    "java/org/apache/coyote/AbstractProtocol.java",
+    "java/org/apache/coyote/UpgradeProtocol.java",
+    "java/org/apache/coyote/UpgradeToken.java",
+    "java/org/apache/coyote/http11/AbstractHttp11Protocol.java",
+    "java/org/apache/coyote/http11/Http11Processor.java",
+    "java/org/apache/coyote/http11/upgrade/InternalHttpUpgradeHandler.java",
+    "java/org/apache/coyote/http11/upgrade/UpgradeGroupInfo.java",
+    "java/org/apache/coyote/http11/upgrade/UpgradeInfo.java",
+    "java/org/apache/coyote/http11/upgrade/UpgradeProcessorExternal.java",
+    "java/org/apache/coyote/http11/upgrade/UpgradeProcessorInternal.java",
+    "java/org/apache/coyote/http11/upgrade/UpgradeServletInputStream.java",
+    "java/org/apache/coyote/http11/upgrade/UpgradeServletOutputStream.java",
+    "java/org/apache/coyote/http2/Http2Protocol.java",
+    "java/org/apache/coyote/http2/StreamProcessor.java",
+    "java/org/apache/tomcat/websocket/WsFrameBase.java",
+    "java/org/apache/tomcat/websocket/WsRemoteEndpointImplBase.java",
+    "java/org/apache/tomcat/websocket/server/WsFrameServer.java",
+    "java/org/apache/tomcat/websocket/server/WsHttpUpgradeHandler.java",
+    "java/org/apache/tomcat/websocket/server/WsRemoteEndpointImplServer.java",
+    "test/org/apache/coyote/http11/upgrade/TestUpgrade.java"
+  ],
+  "44611": [
+    "java/org/apache/naming/resources/DirContextURLConnection.java",
+    "java/org/apache/naming/resources/ResourceAttributes.java"
+  ],
+  "65301": [
+    "java/org/apache/catalina/valves/RemoteIpValve.java"
+  ],
+  "65505": [
+    "java/org/apache/tomcat/util/http/MimeHeaders.java",
+    "test/org/apache/tomcat/util/http/TestResponseUtil.java"
+  ],
+  "48843": [
+    "webapps/examples/WEB-INF/classes/chat/ChatServlet.java"
+  ],
+  "64743": [
+    "java/org/apache/coyote/http11/Http11Processor.java"
+  ],
+  "41217": [
+    "java/org/apache/catalina/authenticator/AuthenticatorBase.java"
+  ],
+  "63995": [
+    "java/org/apache/tomcat/dbcp/dbcp2/DelegatingStatement.java"
+  ],
+  "50556": [
+    "java/org/apache/catalina/core/JreMemoryLeakPreventionListener.java"
+  ],
+  "66419": [
+    "java/org/apache/el/parser/AstFunction.java",
+    "test/org/apache/el/parser/TestAstFunction.java"
+  ],
+  "43909": [
+    "java/org/apache/el/lang/EvaluationContext.java"
+  ],
+  "57638": [
+    "java/org/apache/catalina/tribes/tipis/LazyReplicatedMap.java",
+    "java/org/apache/coyote/ajp/AjpProcessor.java"
+  ],
+  "49957": [
+    "java/org/apache/catalina/startup/ContextConfig.java"
+  ],
+  "66236": [
+    "java/org/apache/coyote/http11/Http11Processor.java",
+    "java/org/apache/coyote/http11/filters/BufferedInputFilter.java",
+    "java/org/apache/coyote/http11/filters/IdentityInputFilter.java"
+  ],
+  "37794": [
+    "test/org/apache/catalina/connector/TestRequest.java"
+  ],
+  "66196": [
+    "java/org/apache/catalina/core/ApplicationContext.java",
+    "java/org/apache/catalina/mapper/Mapper.java",
+    "java/org/apache/catalina/valves/rewrite/RewriteValve.java",
+    "java/org/apache/coyote/http11/Http11Processor.java",
+    "java/org/apache/tomcat/util/buf/MessageBytes.java",
+    "test/org/apache/coyote/http11/TestHttp11OutputBuffer.java",
+    "test/org/apache/tomcat/util/buf/TestMessageBytes.java",
+    "test/org/apache/tomcat/util/buf/TestMessageBytesConversion.java"
+  ],
+  "43668": [
+    "java/org/apache/catalina/core/ApplicationDispatcher.java"
+  ],
+  "55198": [
+    "java/org/apache/jasper/compiler/ELParser.java",
+    "test/org/apache/jasper/compiler/TestELParser.java"
+  ],
+  "64830": [
+    "java/org/apache/coyote/AbstractProtocol.java",
+    "java/org/apache/coyote/http2/ConnectionSettingsBase.java",
+    "java/org/apache/coyote/http2/HpackDecoder.java"
+  ],
+  "66277": [
+    "java/org/apache/catalina/core/StandardContext.java",
+    "java/org/apache/catalina/servlets/WebdavServlet.java",
+    "java/org/apache/jasper/compiler/ParserController.java",
+    "java/org/apache/tomcat/util/log/SystemLogHandler.java",
+    "test/org/apache/catalina/core/TestStandardContext.java"
+  ],
+  "69374": [
+    "java/org/apache/catalina/servlets/DefaultServlet.java"
+  ],
+  "69398": [
+    "java/org/apache/jasper/runtime/PageContextImpl.java"
+  ],
+  "69210": [
+    "java/org/apache/catalina/filters/CorsFilter.java"
+  ],
+  "56882": [
+    "java/org/apache/catalina/mapper/Mapper.java",
+    "test/org/apache/catalina/mapper/TestMapper.java",
+    "test/org/apache/catalina/mapper/TestMapperWebapps.java"
+  ],
+  "64166": [
+    "java/org/apache/catalina/connector/Response.java"
+  ],
+  "62988": [
+    "java/org/apache/catalina/core/ApplicationSessionCookieConfig.java",
+    "java/org/apache/catalina/util/SessionConfig.java"
+  ],
+  "37509": [
+    "java/org/apache/juli/ClassLoaderLogManager.java"
+  ],
+  "63765": [
+    "java/org/apache/tomcat/util/net/SecureNio2Channel.java"
+  ],
+  "69399": [
+    "java/org/apache/jasper/compiler/Generator.java",
+    "test/org/apache/jasper/compiler/TestGenerator.java"
+  ],
+  "68089": [
+    "java/org/apache/catalina/core/ApplicationHttpRequest.java",
+    "java/org/apache/catalina/core/ApplicationRequest.java",
+    "test/org/apache/catalina/core/TestApplicationHttpRequestPerformance.java"
+  ],
+  "69381": [
+    "java/jakarta/el/Util.java",
+    "java/org/apache/el/util/ReflectionUtil.java",
+    "test/org/apache/el/parser/TestELParserPerformance.java",
+    "test/org/apache/el/parser/TesterBeanD.java",
+    "test/org/apache/el/parser/TesterBeanE.java",
+    "test/org/apache/el/parser/TesterEnum.java"
+  ],
+  "65757": [
+    "java/org/apache/catalina/connector/CoyoteAdapter.java",
+    "java/org/apache/catalina/connector/InputBuffer.java",
+    "java/org/apache/coyote/AbstractProtocol.java",
+    "java/org/apache/coyote/AsyncStateMachine.java",
+    "java/org/apache/coyote/ContainerThreadMarker.java",
+    "java/org/apache/coyote/Request.java",
+    "java/org/apache/coyote/Response.java",
+    "java/org/apache/coyote/http11/upgrade/UpgradeServletInputStream.java",
+    "java/org/apache/coyote/http11/upgrade/UpgradeServletOutputStream.java",
+    "java/org/apache/coyote/http2/StreamProcessor.java",
+    "java/org/apache/tomcat/util/net/ContainerThreadMarker.java",
+    "test/org/apache/catalina/nonblocking/TestNonBlockingAPI.java"
+  ],
+  "41327": [
+    "java/org/apache/jasper/servlet/JspServlet.java"
+  ],
+  "69444": [
+    "java/org/apache/catalina/core/StandardHostValve.java",
+    "test/org/apache/catalina/core/TestStandardHostValve.java"
+  ],
+  "65377": [
+    "java/org/apache/jasper/compiler/JspUtil.java",
+    "test/org/apache/jasper/compiler/TestJspUtil.java"
+  ],
+  "64483": [
+    "java/org/apache/coyote/ajp/AjpProcessor.java"
+  ],
+  "43683": [
+    "java/org/apache/catalina/core/StandardContextValve.java"
+  ],
+  "53085": [
+    "java/org/apache/catalina/core/ApplicationFilterConfig.java",
+    "java/org/apache/catalina/core/AsyncContextImpl.java"
+  ],
+  "42438": [
+    "java/org/apache/jasper/compiler/Node.java"
+  ],
+  "66175": [
+    "java/org/apache/catalina/authenticator/BasicAuthenticator.java"
+  ],
+  "48692": [
+    "java/org/apache/catalina/connector/Connector.java",
+    "java/org/apache/catalina/connector/Request.java",
+    "test/org/apache/catalina/connector/TestRequest.java"
+  ],
+  "69478": [
+    "java/jakarta/servlet/http/Cookie.java",
+    "test/jakarta/servlet/http/TestCookie.java"
+  ],
+  "50015": [
+    "test/org/apache/catalina/core/TestStandardContext.java"
+  ],
+  "55071": [
+    "java/org/apache/catalina/realm/JDBCRealm.java"
+  ],
+  "69214": [
+    "java/org/apache/catalina/filters/CorsFilter.java",
+    "test/org/apache/catalina/filters/TestCorsFilter.java"
+  ],
+  "66665": [
+    "java/org/apache/catalina/core/PropertiesRoleMappingListener.java",
+    "test/org/apache/catalina/core/TestPropertiesRoleMappingListener.java"
+  ],
+  "37326": [
+    "java/org/apache/jasper/servlet/JspServletWrapper.java"
+  ],
+  "63905": [
+    "java/org/apache/catalina/servlets/DefaultServlet.java",
+    "java/org/apache/catalina/util/TomcatCSS.java",
+    "test/org/apache/coyote/http2/TestHttp2InitialConnection.java"
+  ],
+  "58031": [
+    "java/org/apache/catalina/connector/Request.java"
+  ],
+  "69521": [
+    "java/org/apache/el/parser/ELParserConstants.java",
+    "java/org/apache/el/parser/ELParserTokenManager.java",
+    "test/org/apache/el/parser/TestAstIdentifier.java",
+    "test/org/apache/el/parser/TesterGenerateIdentifierRanges.java"
+  ],
+  "48701": [
+    "test/org/apache/jasper/compiler/TestGenerator.java"
+  ],
+  "49343": [
+    "java/org/apache/catalina/tribes/tipis/AbstractReplicatedMap.java"
+  ],
+  "60997": [
+    "java/org/apache/catalina/valves/SemaphoreValve.java",
+    "java/org/apache/catalina/valves/rewrite/RewriteRule.java",
+    "java/org/apache/catalina/valves/rewrite/RewriteValve.java",
+    "test/org/apache/catalina/valves/rewrite/TestRewriteValve.java"
+  ],
+  "54044": [
+    "test/org/apache/catalina/valves/TestAccessLogValve.java"
+  ],
+  "30949": [
+    "java/org/apache/catalina/core/ApplicationDispatcher.java"
+  ],
+  "67818": [
+    "java/org/apache/tomcat/util/net/openssl/panama/OpenSSLContext.java",
+    "modules/openssl-foreign/src/main/java/org/apache/tomcat/util/net/openssl/panama/OpenSSLContext.java"
+  ],
+  "68559": [
+    "java/org/apache/catalina/connector/CoyoteAdapter.java"
+  ],
+  "64467": [
+    "java/org/apache/coyote/http2/Http2UpgradeHandler.java",
+    "test/org/apache/coyote/http2/TestHttp2Section_5_1.java"
+  ],
+  "63987": [
+    "java/org/apache/catalina/Realm.java"
+  ],
+  "56698": [
+    "java/org/apache/catalina/session/PersistentManagerBase.java",
+    "test/org/apache/catalina/session/TestPersistentManager.java"
+  ],
+  "69131": [
+    "java/org/apache/catalina/authenticator/AuthenticatorBase.java",
+    "java/org/apache/catalina/core/ApplicationFilterFactory.java",
+    "java/org/apache/catalina/util/FilterUtil.java"
+  ],
+  "44391": [
+    "java/org/apache/catalina/ssi/SSIProcessor.java"
+  ],
+  "51580": [
+    "java/org/apache/catalina/startup/ExpandWar.java"
+  ],
+  "42309": [
+    "java/org/apache/catalina/startup/Embedded.java"
+  ],
+  "56777": [
+    "java/org/apache/tomcat/util/file/ConfigFileLoader.java"
+  ],
+  "62312": [
+    "java/org/apache/tomcat/websocket/AuthenticationType.java",
+    "java/org/apache/tomcat/websocket/Authenticator.java",
+    "java/org/apache/tomcat/websocket/BasicAuthenticator.java",
+    "java/org/apache/tomcat/websocket/Constants.java",
+    "java/org/apache/tomcat/websocket/DigestAuthenticator.java",
+    "java/org/apache/tomcat/websocket/WsWebSocketContainer.java",
+    "test/org/apache/tomcat/websocket/TesterWebSocketClientProxy.java"
+  ],
+  "69615": [
+    "java/org/apache/catalina/loader/WebappClassLoaderBase.java"
+  ],
+  "66120": [
+    "java/org/apache/catalina/authenticator/SavedRequest.java",
+    "java/org/apache/catalina/ha/session/DeltaRequest.java",
+    "java/org/apache/catalina/ha/session/DeltaSession.java",
+    "java/org/apache/catalina/ha/session/JvmRouteBinderValve.java",
+    "java/org/apache/catalina/session/StandardSession.java"
+  ],
+  "39592": [
+    "java/org/apache/catalina/ssi/SSIServletExternalResolver.java"
+  ],
+  "64488": [
+    "java/jakarta/el/ImportHandler.java"
+  ],
+  "52121": [
+    "test/org/apache/coyote/http11/filters/TesterFlushableGZIPOutputStream.java"
+  ],
+  "59317": [
+    "test/org/apache/catalina/core/TestAsyncContextImpl.java"
+  ],
+  "58275": [
+    "java/org/apache/catalina/Globals.java",
+    "java/org/apache/catalina/authenticator/SpnegoAuthenticator.java",
+    "java/org/apache/catalina/core/JreMemoryLeakPreventionListener.java",
+    "java/org/apache/catalina/loader/WebappClassLoaderBase.java",
+    "java/org/apache/tomcat/util/compat/JreVendor.java"
+  ],
+  "43117": [
+    "java/org/apache/catalina/core/StandardContext.java"
+  ],
+  "67926": [
+    "java/org/apache/tomcat/util/net/jsse/PEMFile.java"
+  ],
+  "46264": [
+    "java/org/apache/catalina/core/ContainerBase.java",
+    "java/org/apache/catalina/core/StandardContext.java"
+  ],
+  "48112": [
+    "test/org/apache/el/TestELEvaluation.java"
+  ],
+  "42071": [
+    "java/org/apache/jasper/servlet/JspServletWrapper.java"
+  ],
+  "65714": [
+    "java/org/apache/catalina/security/SecurityClassLoad.java",
+    "java/org/apache/tomcat/util/net/Constants.java",
+    "java/org/apache/tomcat/util/net/SecureNio2Channel.java",
+    "java/org/apache/tomcat/util/security/PrivilegedSetAccessControlContext.java",
+    "java/org/apache/tomcat/util/threads/TaskThreadFactory.java"
+  ],
+  "57154": [
+    "test/org/apache/tomcat/websocket/TestWsWebSocketContainer.java"
+  ],
+  "47774": [
+    "java/org/apache/catalina/security/SecurityClassLoad.java",
+    "java/org/apache/catalina/session/StandardSession.java"
+  ],
+  "36923": [
+    "test/org/apache/el/TestELInJsp.java"
+  ],
+  "42039": [
+    "java/org/apache/catalina/core/StandardWrapperValve.java"
+  ],
+  "52184": [
+    "java/org/apache/juli/logging/DirectJDKLog.java",
+    "java/org/apache/tomcat/util/http/Cookies.java"
+  ],
+  "62712": [
+    "java/org/apache/catalina/manager/ManagerServlet.java"
+  ],
+  "62603": [
+    "java/org/apache/jasper/compiler/JspRuntimeContext.java",
+    "java/org/apache/jasper/compiler/TagFileProcessor.java",
+    "java/org/apache/jasper/servlet/JspServletWrapper.java"
+  ],
+  "64153": [
+    "java/org/apache/catalina/core/StandardContext.java",
+    "java/org/apache/catalina/loader/WebappLoader.java"
+  ],
+  "64514": [
+    "java/org/apache/catalina/Globals.java",
+    "java/org/apache/catalina/startup/Bootstrap.java",
+    "java/org/apache/catalina/startup/Constants.java",
+    "java/org/apache/catalina/startup/Tool.java"
+  ],
+  "44673": [
+    "java/org/apache/catalina/connector/InputBuffer.java"
+  ],
+  "60035": [
+    "java/org/apache/tomcat/util/net/Nio2Endpoint.java"
+  ],
+  "58284": [
+    "test/org/apache/catalina/session/TestStandardSession.java"
+  ],
+  "68692": [
+    "java/org/apache/catalina/core/StandardThreadExecutor.java",
+    "java/org/apache/catalina/core/StandardVirtualThreadExecutor.java",
+    "java/org/apache/tomcat/util/net/Nio2Endpoint.java",
+    "java/org/apache/tomcat/util/threads/ScheduledThreadPoolExecutor.java"
+  ],
+  "68495": [
+    "java/org/apache/catalina/authenticator/FormAuthenticator.java"
+  ],
+  "52444": [
+    "java/org/apache/tomcat/util/bcel/Constants.java",
+    "java/org/apache/tomcat/util/bcel/classfile/AccessFlags.java"
+  ],
+  "69713": [
+    "java/org/apache/coyote/http2/AbstractNonZeroStream.java",
+    "java/org/apache/coyote/http2/Http2Parser.java",
+    "java/org/apache/coyote/http2/Http2UpgradeHandler.java",
+    "java/org/apache/coyote/http2/RecycledStream.java",
+    "java/org/apache/coyote/http2/Stream.java",
+    "test/org/apache/coyote/http2/Http2TestBase.java",
+    "test/org/apache/coyote/http2/TestHttp2Section_6_1.java"
+  ],
+  "64644": [
+    "java/org/apache/tomcat/websocket/Constants.java",
+    "java/org/apache/tomcat/websocket/WsFrameBase.java",
+    "java/org/apache/tomcat/websocket/WsRemoteEndpointImplBase.java",
+    "java/org/apache/tomcat/websocket/WsSession.java",
+    "test/org/apache/tomcat/websocket/TestWsWebSocketContainer.java"
+  ],
+  "43914": [
+    "java/org/apache/catalina/connector/CoyoteAdapter.java"
+  ],
+  "55120": [
+    "java/org/apache/tomcat/websocket/pojo/PojoMethodMapping.java"
+  ],
+  "23950": [
+    "test/org/apache/naming/resources/TestNamingContext.java",
+    "test/org/apache/naming/resources/TesterFactory.java",
+    "test/org/apache/naming/resources/TesterObject.java"
+  ],
+  "29727": [
+    "java/org/apache/catalina/deploy/NamingResources.java"
+  ],
+  "43702": [
+    "java/org/apache/jasper/compiler/Generator.java"
+  ],
+  "69588": [
+    "java/org/apache/catalina/WebResourceRoot.java",
+    "java/org/apache/catalina/WebResourceSet.java",
+    "java/org/apache/catalina/webresources/AbstractArchiveResourceSet.java",
+    "java/org/apache/catalina/webresources/AbstractFileResourceSet.java",
+    "java/org/apache/catalina/webresources/DirResourceSet.java",
+    "java/org/apache/catalina/webresources/EmptyResourceSet.java"
+  ],
+  "55638": [
+    "java/org/apache/tomcat/websocket/WsFrameBase.java"
+  ],
+  "66009": [
+    "java/org/apache/catalina/realm/CombinedRealm.java",
+    "java/org/apache/catalina/realm/LockOutRealm.java",
+    "java/org/apache/catalina/realm/RealmBase.java",
+    "java/org/apache/catalina/valves/rewrite/ResolverImpl.java"
+  ],
+  "64938": [
+    "java/org/apache/catalina/connector/OutputBuffer.java",
+    "java/org/apache/catalina/connector/Response.java",
+    "java/org/apache/coyote/Response.java",
+    "test/org/apache/catalina/connector/TestResponse.java",
+    "test/org/apache/tomcat/unittest/TesterContext.java"
+  ],
+  "57441": [
+    "test/org/apache/el/parser/TestAstLambdaExpression.java",
+    "test/org/apache/el/parser/TestELParser.java"
+  ],
+  "45195": [
+    "java/org/apache/catalina/session/StandardSession.java"
+  ],
+  "52328": [
+    "java/org/apache/catalina/connector/OutputBuffer.java"
+  ],
+  "42944": [
+    "java/org/apache/catalina/util/RequestUtil.java"
+  ],
+  "54338": [
+    "test/org/apache/jasper/tagplugins/jstl/core/TestSet.java"
+  ],
+  "56611": [
+    "java/org/apache/catalina/startup/Tomcat.java"
+  ],
+  "64509": [
+    "java/org/apache/tomcat/util/http/parser/Cookie.java",
+    "test/org/apache/tomcat/util/http/parser/TestCookie.java"
+  ],
+  "69471": [
+    "java/org/apache/catalina/core/ApplicationDispatcher.java"
+  ],
+  "60043": [
+    "modules/jdbc-pool/src/main/java/org/apache/tomcat/jdbc/pool/ConnectionPool.java"
+  ],
+  "49929": [
+    "java/org/apache/coyote/ajp/AjpAprProcessor.java",
+    "java/org/apache/coyote/ajp/AjpProcessor.java"
+  ],
+  "64386": [
+    "java/org/apache/catalina/servlets/WebdavServlet.java"
+  ],
+  "54602": [
+    "java/org/apache/tomcat/util/buf/B2CConverter.java",
+    "test/org/apache/tomcat/util/buf/TestB2CConverter.java"
+  ],
+  "56010": [
+    "java/javax/servlet/jsp/JspFactory.java"
+  ],
+  "64240": [
+    "test/org/apache/coyote/http11/TestHttp11InputBuffer.java"
+  ],
+  "66203": [
+    "java/org/apache/jasper/JspCompilationContext.java"
+  ],
+  "66209": [
+    "java/org/apache/catalina/Context.java",
+    "java/org/apache/catalina/WebResourceRoot.java",
+    "java/org/apache/catalina/core/StandardContext.java",
+    "java/org/apache/catalina/webresources/AbstractArchiveResourceSet.java",
+    "java/org/apache/catalina/webresources/StandardRoot.java",
+    "test/org/apache/catalina/webresources/TestAbstractArchiveResourceSet.java",
+    "test/org/apache/catalina/webresources/TestStandardRoot.java"
+  ],
+  "57142": [
+    "java/javax/el/ImportHandler.java",
+    "java/org/apache/jasper/compiler/Generator.java",
+    "java/org/apache/jasper/compiler/PageInfo.java",
+    "java/org/apache/jasper/compiler/Validator.java",
+    "java/org/apache/jasper/runtime/JspSourceImports.java",
+    "java/org/apache/jasper/runtime/PageContextImpl.java",
+    "test/javax/el/TestImportHandler.java"
+  ],
+  "50984": [
+    "java/org/apache/catalina/manager/Constants.java",
+    "java/org/apache/catalina/manager/ManagerServlet.java",
+    "java/org/apache/catalina/manager/StatusManagerServlet.java",
+    "java/org/apache/catalina/manager/host/Constants.java",
+    "java/org/apache/catalina/manager/host/HTMLHostManagerServlet.java",
+    "java/org/apache/catalina/manager/util/BaseSessionComparator.java",
+    "java/org/apache/catalina/manager/util/ReverseComparator.java"
+  ],
+  "63556": [
+    "java/org/apache/catalina/Globals.java",
+    "java/org/apache/catalina/filters/RemoteIpFilter.java",
+    "java/org/apache/catalina/valves/RemoteIpValve.java",
+    "test/org/apache/catalina/filters/TestRemoteIpFilter.java",
+    "test/org/apache/catalina/valves/TestRemoteIpValve.java"
+  ],
+  "68546": [
+    "java/org/apache/jasper/compiler/Generator.java"
+  ],
+  "44282": [
+    "java/org/apache/catalina/loader/WebappClassLoader.java"
+  ],
+  "41739": [
+    "java/org/apache/catalina/core/StandardContext.java"
+  ],
+  "60087": [
+    "java/org/apache/catalina/webresources/WarURLConnection.java",
+    "java/org/apache/catalina/webresources/WarURLStreamHandler.java",
+    "test/org/apache/catalina/webresources/TestWarURLStreamHandler.java"
+  ],
+  "56581": [
+    "test/org/apache/jasper/compiler/TestGenerator.java"
+  ],
+  "57446": [
+    "java/org/apache/catalina/core/StandardContext.java",
+    "test/org/apache/catalina/core/TesterTldListener.java"
+  ],
+  "67628": [
+    "test/org/apache/tomcat/util/net/openssl/ciphers/TestOpenSSLCipherConfigurationParser.java"
+  ],
+  "65387": [
+    "java/org/apache/jasper/compiler/Generator.java",
+    "test/org/apache/jasper/compiler/TestGenerator.java"
+  ],
+  "69135": [
+    "java/org/apache/jasper/compiler/Parser.java",
+    "java/org/apache/jasper/compiler/ParserController.java",
+    "test/org/apache/catalina/loader/TestVirtualWebappLoader.java",
+    "test/org/apache/jasper/TestJspCompilationContext.java"
+  ],
+  "42643": [
+    "java/org/apache/jasper/compiler/ELFunctionMapper.java"
+  ],
+  "43470": [
+    "java/org/apache/catalina/deploy/ContextHandler.java",
+    "java/org/apache/catalina/deploy/ContextService.java",
+    "java/org/apache/catalina/deploy/ContextTransaction.java",
+    "java/org/apache/catalina/deploy/FilterDef.java",
+    "java/org/apache/catalina/deploy/NamingResources.java",
+    "java/org/apache/catalina/deploy/ResourceBase.java"
+  ],
+  "52955": [
+    "java/org/apache/catalina/core/ContainerBase.java"
+  ],
+  "43706": [
+    "java/org/apache/catalina/servlets/WebdavServlet.java"
+  ],
+  "35410": [
+    "java/org/apache/jasper/runtime/JspWriterImpl.java",
+    "test/org/apache/jasper/runtime/TestJspWriterImpl.java"
+  ],
+  "60013": [
+    "java/org/apache/catalina/valves/rewrite/RewriteRule.java",
+    "java/org/apache/catalina/valves/rewrite/RewriteValve.java",
+    "java/org/apache/catalina/valves/rewrite/Substitution.java",
+    "test/org/apache/catalina/valves/rewrite/TestRewriteValve.java"
+  ],
+  "66382": [
+    "java/org/apache/coyote/http2/Http2AsyncParser.java"
+  ],
+  "51953": [
+    "java/org/apache/catalina/util/NetMask.java",
+    "test/org/apache/catalina/util/TestNetMask.java"
+  ],
+  "19444": [
+    "java/org/apache/catalina/realm/JNDIRealm.java"
+  ],
+  "64474": [
+    "java/org/apache/tomcat/util/net/SSLUtilBase.java",
+    "java/org/apache/tomcat/util/net/openssl/ciphers/OpenSSLCipherConfigurationParser.java"
+  ],
+  "41722": [
+    "java/org/apache/catalina/deploy/SecurityRoleRef.java",
+    "java/org/apache/catalina/startup/WebRuleSet.java"
+  ],
+  "33453": [
+    "java/org/apache/jasper/JspCompilationContext.java",
+    "java/org/apache/jasper/compiler/Compiler.java",
+    "java/org/apache/jasper/compiler/Generator.java"
+  ],
+  "65137": [
+    "java/org/apache/tomcat/util/net/AprEndpoint.java",
+    "java/org/apache/tomcat/util/net/NioEndpoint.java",
+    "java/org/apache/tomcat/util/net/SocketWrapperBase.java"
+  ],
+  "40929": [
+    "java/org/apache/catalina/loader/StandardClassLoader.java"
+  ],
+  "49567": [
+    "test/org/apache/catalina/core/TestAsyncContextImpl.java"
+  ],
+  "63778": [
+    "java/org/apache/tomcat/util/compat/Jre9Compat.java"
+  ],
+  "64794": [
+    "java/org/apache/jasper/security/SecurityClassLoad.java"
+  ],
+  "66618": [
+    "java/org/apache/catalina/servlets/DefaultServlet.java"
+  ],
+  "55807": [
+    "java/org/apache/jasper/servlet/TldScanner.java",
+    "test/org/apache/jasper/servlet/TestTldScanner.java"
+  ],
+  "62830": [
+    "java/org/apache/catalina/core/JniLifecycleListener.java",
+    "java/org/apache/tomcat/jni/Library.java"
+  ],
+  "50459": [
+    "java/org/apache/catalina/core/StandardContext.java"
+  ],
+  "69320": [
+    "java/org/apache/coyote/http2/StreamProcessor.java",
+    "test/org/apache/coyote/http2/TestHttp2Section_5_1.java"
+  ],
+  "56223": [
+    "test/org/apache/jasper/compiler/TestELInterpreterFactory.java"
+  ],
+  "63909": [
+    "test/org/apache/catalina/filters/TestExpiresFilter.java"
+  ],
+  "66822": [
+    "java/org/apache/catalina/connector/Connector.java"
+  ],
+  "57136": [
+    "java/org/apache/el/parser/ELParserTokenManager.java",
+    "test/org/apache/el/TestELEvaluation.java"
+  ],
+  "55233": [
+    "test/org/apache/tomcat/websocket/TestWebSocketFrameClient.java",
+    "test/org/apache/tomcat/websocket/TestWsPingPongMessages.java",
+    "test/org/apache/tomcat/websocket/TestWsRemoteEndpoint.java",
+    "test/org/apache/tomcat/websocket/TestWsSubprotocols.java",
+    "test/org/apache/tomcat/websocket/TestWsWebSocketContainer.java",
+    "test/org/apache/tomcat/websocket/TesterFirehoseServer.java",
+    "test/org/apache/tomcat/websocket/TesterMessageCountClient.java"
+  ],
+  "42444": [
+    "java/org/apache/catalina/valves/AccessLogValve.java"
+  ],
+  "66370": [
+    "java/jakarta/el/Util.java"
+  ],
+  "43236": [
+    "java/org/apache/catalina/connector/Response.java"
+  ],
+  "64006": [
+    "java/org/apache/catalina/startup/Tomcat.java",
+    "java/org/apache/tomcat/util/file/ConfigFileLoader.java",
+    "java/org/apache/tomcat/util/file/ConfigurationSource.java",
+    "test/org/apache/catalina/users/MemoryUserDatabaseTests.java"
+  ],
+  "66627": [
+    "java/org/apache/tomcat/util/buf/MessageBytes.java"
+  ],
+  "44494": [
+    "java/org/apache/catalina/connector/CoyoteAdapter.java",
+    "java/org/apache/catalina/connector/InputBuffer.java",
+    "java/org/apache/tomcat/util/buf/B2CConverter.java",
+    "java/org/apache/tomcat/util/buf/CharChunk.java"
+  ],
+  "69690": [
+    "java/org/apache/catalina/connector/Request.java",
+    "test/org/apache/catalina/connector/TestRequest.java"
+  ],
+  "43839": [
+    "java/org/apache/catalina/connector/CoyoteAdapter.java"
+  ],
+  "52970": [
+    "test/org/apache/el/TestMethodExpressionImpl.java",
+    "test/org/apache/el/TesterBeanEnum.java"
+  ],
+  "52259": [
+    "java/org/apache/catalina/core/ContainerBase.java",
+    "java/org/apache/catalina/core/StandardContext.java"
+  ],
+  "44223": [
+    "java/org/apache/tomcat/util/net/jsse/JSSESocketFactory.java"
+  ],
+  "46985": [
+    "java/org/apache/coyote/http11/Http11Processor.java"
+  ],
+  "52015": [
+    "modules/jdbc-pool/src/main/java/org/apache/tomcat/jdbc/pool/JdbcInterceptor.java"
+  ],
+  "39875": [
+    "java/org/apache/catalina/realm/RealmBase.java"
+  ],
+  "65368": [
+    "java/org/apache/tomcat/util/net/SecureNioChannel.java"
+  ],
+  "69285": [
+    "java/org/apache/catalina/core/ApplicationHttpRequest.java",
+    "java/org/apache/catalina/util/ParameterMap.java",
+    "test/org/apache/catalina/util/TestParameterMapPerformance.java"
+  ],
+  "55534": [
+    "java/javax/annotation/Generated.java",
+    "java/javax/annotation/PostConstruct.java",
+    "java/javax/annotation/PreDestroy.java",
+    "java/javax/annotation/Resource.java",
+    "java/javax/annotation/Resources.java",
+    "java/javax/annotation/security/DeclareRoles.java",
+    "java/javax/annotation/security/DenyAll.java",
+    "java/javax/annotation/security/PermitAll.java",
+    "java/javax/annotation/security/RolesAllowed.java",
+    "java/javax/annotation/security/RunAs.java"
+  ],
+  "43622": [
+    "java/org/apache/coyote/http11/Http11AprProtocol.java",
+    "java/org/apache/coyote/http11/Http11NioProtocol.java",
+    "java/org/apache/coyote/http11/Http11Protocol.java"
+  ],
+  "65179": [
+    "java/org/apache/coyote/http2/AbstractNonZeroStream.java",
+    "java/org/apache/coyote/http2/Http2Parser.java",
+    "java/org/apache/coyote/http2/Http2UpgradeHandler.java",
+    "java/org/apache/coyote/http2/RecycledStream.java",
+    "java/org/apache/coyote/http2/Stream.java",
+    "test/org/apache/coyote/http2/Http2TestBase.java",
+    "test/org/apache/coyote/http2/TestFlowControl.java"
+  ],
+  "40771": [
+    "java/org/apache/coyote/http11/filters/SavedRequestInputFilter.java"
+  ],
+  "42547": [
+    "java/org/apache/catalina/deploy/NamingResources.java"
+  ],
+  "39769": [
+    "java/org/apache/catalina/core/StandardWrapper.java"
+  ],
+  "64871": [
+    "java/org/apache/catalina/webresources/AbstractFileResourceSet.java"
+  ],
+  "58230": [
+    "java/org/apache/catalina/connector/InputBuffer.java",
+    "java/org/apache/tomcat/util/buf/ByteChunk.java",
+    "java/org/apache/tomcat/util/buf/CharChunk.java"
+  ],
+  "69234": [
+    "java/org/apache/tomcat/util/buf/UriUtil.java",
+    "test/org/apache/tomcat/util/buf/TesterUriUtilBase.java"
+  ],
+  "55176": [
+    "test/org/apache/catalina/ssi/TestExpressionParseTree.java"
+  ],
+  "49779": [
+    "java/org/apache/catalina/authenticator/FormAuthenticator.java",
+    "test/org/apache/catalina/authenticator/TestFormAuthenticator.java",
+    "test/org/apache/catalina/startup/SimpleHttpClient.java"
+  ],
+  "59001": [
+    "java/org/apache/tomcat/util/buf/UriUtil.java"
+  ],
+  "62175": [
+    "java/org/apache/catalina/session/PersistentManagerBase.java"
+  ],
+  "66842": [
+    "java/org/apache/coyote/http2/Http2AsyncUpgradeHandler.java",
+    "java/org/apache/coyote/http2/Http2UpgradeHandler.java"
+  ],
+  "11117": [
+    "java/org/apache/coyote/http11/filters/ChunkedInputFilter.java"
+  ],
+  "65443": [
+    "java/org/apache/catalina/filters/CorsFilter.java"
+  ],
+  "69614": [
+    "java/org/apache/coyote/http2/Http2Parser.java",
+    "java/org/apache/coyote/http2/Stream.java",
+    "test/org/apache/coyote/http2/TestRfc9218.java"
+  ],
+  "65448": [
+    "java/org/apache/tomcat/util/net/NioEndpoint.java",
+    "java/org/apache/tomcat/util/net/SecureNioChannel.java"
+  ],
+  "64560": [
+    "java/org/apache/catalina/ha/session/DeltaSession.java"
+  ],
+  "41008": [
+    "java/org/apache/catalina/servlets/CGIServlet.java"
+  ],
+  "52830": [
+    "test/org/apache/naming/resources/TestNamingContext.java"
+  ],
+  "65460": [
+    "java/org/apache/coyote/http2/Http2AsyncUpgradeHandler.java",
+    "java/org/apache/coyote/http2/Http2UpgradeHandler.java"
+  ],
+  "54585": [
+    "java/org/apache/catalina/loader/WebappLoader.java"
+  ],
+  "43216": [
+    "java/org/apache/catalina/session/StandardManager.java"
+  ],
+  "66541": [
+    "java/org/apache/catalina/webresources/CachedResource.java"
+  ],
+  "34399": [
+    "java/org/apache/catalina/manager/HTMLManagerServlet.java",
+    "java/org/apache/catalina/manager/ManagerServlet.java",
+    "java/org/apache/catalina/startup/HostConfig.java"
+  ],
+  "64021": [
+    "java/org/apache/catalina/startup/WebappServiceLoader.java",
+    "test/org/apache/catalina/startup/TestWebappServiceLoader.java"
+  ],
+  "53843": [
+    "java/org/apache/coyote/AsyncStateMachine.java"
+  ],
+  "43846": [
+    "java/org/apache/coyote/http11/Http11NioProcessor.java",
+    "java/org/apache/coyote/http11/Http11NioProtocol.java",
+    "java/org/apache/coyote/http11/InternalNioInputBuffer.java",
+    "java/org/apache/coyote/http11/InternalNioOutputBuffer.java",
+    "java/org/apache/tomcat/util/MutableInteger.java",
+    "java/org/apache/tomcat/util/net/NioBlockingSelector.java",
+    "java/org/apache/tomcat/util/net/NioChannel.java",
+    "java/org/apache/tomcat/util/net/NioEndpoint.java",
+    "java/org/apache/tomcat/util/net/NioSelectorPool.java",
+    "java/org/apache/tomcat/util/net/SecureNioChannel.java"
+  ],
+  "58373": [
+    "java/org/apache/catalina/startup/Tomcat.java",
+    "test/org/apache/catalina/core/TestStandardContextResources.java"
+  ],
+  "65106": [
+    "java/org/apache/catalina/startup/CatalinaBaseConfigurationSource.java"
+  ],
+  "43241": [
+    "java/org/apache/catalina/core/ApplicationContext.java"
+  ],
+  "65677": [
+    "java/org/apache/coyote/http11/Http11InputBuffer.java"
+  ],
+  "66084": [
+    "java/org/apache/catalina/connector/OutputBuffer.java"
+  ],
+  "61086": [
+    "java/org/apache/coyote/http11/Http11Processor.java"
+  ],
+  "65770": [
+    "java/org/apache/catalina/security/TLSCertificateReloadListener.java",
+    "java/org/apache/coyote/ProtocolHandler.java",
+    "java/org/apache/coyote/ajp/AbstractAjpProtocol.java",
+    "java/org/apache/coyote/http11/AbstractHttp11Protocol.java",
+    "java/org/apache/tomcat/util/net/SSLHostConfig.java"
+  ],
+  "42753": [
+    "java/org/apache/catalina/core/ApplicationFilterFactory.java"
+  ],
+  "69338": [
+    "java/org/apache/el/parser/AstAbstractEmpty.java",
+    "java/org/apache/el/parser/AstAnd.java",
+    "java/org/apache/el/parser/AstEmpty.java",
+    "java/org/apache/el/parser/AstNotEmpty.java",
+    "java/org/apache/el/parser/AstOr.java",
+    "java/org/apache/el/parser/ELParser.java",
+    "test/org/apache/el/parser/TestAstAnd.java",
+    "test/org/apache/el/parser/TestAstOr.java",
+    "test/org/apache/el/parser/TestELParserPerformance.java"
+  ]
+}

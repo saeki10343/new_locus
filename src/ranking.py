@@ -1,12 +1,9 @@
-# src/ranking.py
-
 from src.vectorizer import preprocess, build_vectorizer, vectorize, preprocess_ce, build_vectorizer_ce
-from src.scoring import NL_score, CE_score, Fix_score, source_score, determine_alpha
+from src.scoring import NL_score, CE_score, Fix_score, Time_score, change_score, determine_alpha
 import numpy as np
-import math
 import datetime
 
-def compute_scores(nl_corpus, ce_corpus, bug_reports, fix_hunk_map, hunks, commit_unix_time):
+def compute_scores(nl_corpus, ce_corpus, bug_reports, fix_hunk_map, hunks, commit_unix_time, change_map=None):
     results = {}
 
     # --- Hunk ID とその NL 前処理済みテキスト ---
@@ -28,35 +25,31 @@ def compute_scores(nl_corpus, ce_corpus, bug_reports, fix_hunk_map, hunks, commi
 
     # --- CEベクトル構築 ---
     ce_vectorizer = build_vectorizer_ce(ce_corpus)
-    bug_vecs_ce = {}
     hunk_vecs_ce = {}
+    bug_ce_pool = {}
 
-    for bug_id in ce_corpus:
-        bug_vecs_ce[bug_id] = {}
-        for hunk_id, tokens in ce_corpus[bug_id].items():
-            text = preprocess_ce(tokens)
-            vec = vectorize([text], ce_vectorizer).toarray()[0]
-            bug_vecs_ce[bug_id][hunk_id] = vec
-            hunk_vecs_ce[hunk_id] = vec  # 各hunk_idのベクトルも保存
+    for bug_id, hunk_tokens in ce_corpus.items():
+        for hunk_id, tokens in hunk_tokens.items():
+            vec = vectorize([preprocess_ce(tokens)], ce_vectorizer).toarray()[0]
+            hunk_vecs_ce[hunk_id] = vec
+            bug_ce_pool.setdefault(bug_id, {})[hunk_id] = vec
 
     # --- スコアリング ---
     for bug in bug_reports:
         bug_id = str(bug['id'])
         bvec_nl = bug_vecs_nl[bug_id]
 
-        # CEベクトル：NLトークンと同じ形状のゼロベクトルを初期値に
+        # --- 評価対象の CE ベクトルを除いた bug_vec_ce を作成 ---
         fix_hunks = fix_hunk_map.get(bug_id, [])
-        ce_entries = {
-            hid: vec for hid, vec in bug_vecs_ce.get(bug_id, {}).items()
-            if hid not in fix_hunks  # ←評価対象を除外
-        }
+        ce_pool = bug_ce_pool.get(bug_id, {})
+        ce_vectors = [v for hid, v in ce_pool.items() if hid not in fix_hunks]
 
-        if ce_entries:
-            bvec_ce = np.mean(list(ce_entries.values()), axis=0)
+        if ce_vectors:
+            bvec_ce = np.mean(ce_vectors, axis=0)
         else:
             bvec_ce = np.zeros_like(bvec_nl)
 
-        # --- Fixスコア計算 ---
+        # --- Fix スコアの計算 ---
         try:
             dt = datetime.datetime.strptime(bug["creation_ts"], "%Y-%m-%dT%H:%M:%SZ")
             bug_time = int(dt.timestamp())
@@ -65,26 +58,48 @@ def compute_scores(nl_corpus, ce_corpus, bug_reports, fix_hunk_map, hunks, commi
             continue
 
         timestamps = []
-        for fix_hunk_id in fix_hunk_map.get(bug_id, []):
+        for fix_hunk_id in fix_hunks:
             commit_id = fix_hunk_id.split(":")[0]
             hunk_time = commit_unix_time.get(commit_id)
             if hunk_time:
                 t = abs(bug_time - hunk_time) / 604800
                 timestamps.append(t)
-
         fix = Fix_score(timestamps) if timestamps else 0.0
         alpha = determine_alpha(len(bvec_nl), len(bvec_ce))
         beta1 = 0.1
+        beta2 = 0.1
 
-        scores = []
+        # --- hunk -> change マップ（Time_score用）を準備 ---
+        change_dict = {}
+        if change_map and bug_id in change_map:
+            for file_path, changes in change_map[bug_id].items():
+                for cid, hids in changes.items():
+                    for hid in hids:
+                        change_dict[hid] = cid
+
+        # --- スコアリング ---
+        scores = {}
         for hunk_id, hvec_nl in hunk_vecs_nl.items():
             hvec_ce = hunk_vecs_ce.get(hunk_id, np.zeros_like(bvec_nl))
             nl = NL_score(bvec_nl, hvec_nl)
             ce = CE_score(bvec_ce, hvec_ce)
-            final = source_score([nl], [ce], fix, alpha, beta1)
-            scores.append((hunk_id, final))
+            final = nl + alpha * ce + beta1 * fix
 
-        scores.sort(key=lambda x: x[1], reverse=True)
-        results[bug_id] = scores
+            # --- Time_score と Change_score を統合 ---
+            if change_map:
+                # 各 change_id に属する hunk の順位情報
+                ranked = sorted(hunk_vecs_nl.keys(), key=lambda x: nl + alpha * ce + beta1 * fix, reverse=True)
+                rank_dict = {h: i for i, h in enumerate(ranked)}
+                change_id = change_dict.get(hunk_id)
+                if change_id:
+                    change_hunks = [h for h, cid in change_dict.items() if cid == change_id]
+                    t_score = Time_score(rank_dict, change_hunks)
+                    c_score = change_score([nl], [ce], t_score, alpha, beta2)
+                    final = c_score  # 上書き（式8）
+
+            scores[hunk_id] = final
+
+        sorted_scores = sorted(scores.items(), key=lambda x: x[1], reverse=True)
+        results[bug_id] = sorted_scores
 
     return results
