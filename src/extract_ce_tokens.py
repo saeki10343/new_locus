@@ -1,3 +1,9 @@
+# python3 src/extract_ce_tokens.py \                      
+#   --bugs data/bug_reports.json \
+#   --hunks data/hunks.json \
+#   --vocab ce_vocab.txt \
+#   --out data/ce_corpus.json
+
 import json
 import re
 import argparse
